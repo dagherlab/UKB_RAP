@@ -7,6 +7,10 @@
 # find data and subset them based on our IDs.
 # prefix=1
 # python create_job_submission.py inputfile.txt 100 $prefix> submission_command.txt
+
+# notice 
+# use ssd2 for bigger space since there are 25 GB cram files x 100 files
+# set priority low to make it cheaper
 import sys
 import math
 import os
@@ -47,7 +51,7 @@ for batch_number in range(number_of_batch):
             break
 
     print('dx run app-swiss-army-knife \
-    --instance-type mem1_ssd1_v2_x8 \
+    --instance-type mem1_ssd2_v2_x8 \
     -iimage_file="dockers/Gauchian.tar.xz" \
     -icmd="gauchian -m {ID_file2} -g 38 -o {out} -p gba_{prefix}_{batch_number} --reference /app/GRCh38_full_analysis_set_plus_decoy_hla.fa" \
     --brief \

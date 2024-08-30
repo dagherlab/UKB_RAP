@@ -12,14 +12,14 @@ rm submission_command.txt
 input_file=../GBA_Gauchian/UKB_ID.txt
 awk '{print substr($0, 1, 2)}' "$input_file" | sort -u | while read prefix; do
     # Create files named IDXX.txt based on the prefix
-    # if [ ! -f ../GBA_Gauchian/tmp_${prefix}.txt ];then
-    #     grep "^$prefix" "$input_file" > "../GBA_Gauchian/UKB_ID${prefix}.txt"
-    #     dx find data --path "/Bulk/Whole genome sequences/Whole genome CRAM files/${prefix}/" --name "*.cram" --delim > ../GBA_Gauchian/UKBRAP_${prefix}.txt
-    #     grep -f ../GBA_Gauchian/UKB_ID${prefix}.txt ../GBA_Gauchian/UKBRAP_${prefix}.txt | cut -f4 | sed 's|.*/||' > ../GBA_Gauchian/manifest_${prefix}.txt
-    #     grep -f ../GBA_Gauchian/UKB_ID${prefix}.txt ../GBA_Gauchian/UKBRAP_${prefix}.txt > ../GBA_Gauchian/tmp_${prefix}.txt
-    #     echo "There are $(wc -l < ../GBA_Gauchian/UKB_ID${prefix}.txt) samples we want to analyze."
-    #     echo "finally there are $(wc -l < ../GBA_Gauchian/manifest_${prefix}.txt) samples found in RAP"
-    # fi 
+    if [ ! -f ../GBA_Gauchian/tmp_${prefix}.txt ];then
+        grep "^$prefix" "$input_file" > "../GBA_Gauchian/UKB_ID${prefix}.txt"
+        dx find data --path "/Bulk/Whole genome sequences/Whole genome CRAM files/${prefix}/" --name "*.cram" --delim > ../GBA_Gauchian/UKBRAP_${prefix}.txt
+        grep -f ../GBA_Gauchian/UKB_ID${prefix}.txt ../GBA_Gauchian/UKBRAP_${prefix}.txt | cut -f4 | sed 's|.*/||' > ../GBA_Gauchian/manifest_${prefix}.txt
+        grep -f ../GBA_Gauchian/UKB_ID${prefix}.txt ../GBA_Gauchian/UKBRAP_${prefix}.txt > ../GBA_Gauchian/tmp_${prefix}.txt
+        echo "There are $(wc -l < ../GBA_Gauchian/UKB_ID${prefix}.txt) samples we want to analyze."
+        echo "finally there are $(wc -l < ../GBA_Gauchian/manifest_${prefix}.txt) samples found in RAP"
+    fi 
     python create_job_submission.py ../GBA_Gauchian/tmp_${prefix}.txt 100 ${prefix} >> submission_command.txt
 done
 ## uncomment this upload manifest files
