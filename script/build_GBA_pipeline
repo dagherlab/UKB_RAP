@@ -1,0 +1,28 @@
+
+# # download dx
+# module load StdEnv/2020 python/3.8.10
+# pip install dxpy
+# pip3 install --upgrade dxpy
+# # add to path
+# export PATH=$PATH:/home/liulang/.local/bin
+# dx login -h
+
+# dx mkdir GBA1
+# dx mkdir IDs
+# make manifest file
+# create job submission scripts
+# dx find data --path "/Bulk/Whole genome sequences/Whole genome CRAM files/10/" --name "*.cram" --delim > inputfile_10.txt
+# grep -f test_ID10.txt inputfile_10.txt|cut -f5 > test_manifest.txt
+## file for creating the command
+# grep -f test_ID10.txt inputfile_10.txt > test_tmp.txt
+dx upload test_manifest.txt --path IDs/
+
+# docker file has been uploaded to ~/dockers
+# it was created on my mac and it has been uploaded to liulang6/my-private-repo
+
+# notice
+# 1. specify cram and crai in -iin
+# 2. folder can't be specified for input
+# 3. you can use the filenames in the comamnd line without specifying their directories. because they will be downloaded to another location which is the working directory
+# 4. when using the docker image, specify the absolute path for any file in the docker image
+# 5. dont use file ID (file-xxxxxxxxxxxxxxx) for cram files. they can't locate the corresponding crai file based on file ID
