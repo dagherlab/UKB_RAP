@@ -1,0 +1,5 @@
+here describes the index for each gene in GraphTyper pVCF files
+https://biobank.ndph.ox.ac.uk/showcase/refer.cgi?id=2008
+wget  -nd  biobank.ndph.ox.ac.uk/ukb/ukb/auxdata/graphtyper_pvcf_coordinates.zip
+and here describes the index for each gene in DRAGEN pVCF files https://biobank.ndph.ox.ac.uk/showcase/refer.cgi?id=2009
+wget  -nd  biobank.ndph.ox.ac.uk/ukb/ukb/auxdata/dragen_pvcf_coordinates.zip

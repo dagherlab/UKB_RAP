@@ -11,6 +11,8 @@
 # notice 
 # use ssd2 for bigger space since there are 25 GB cram files x 100 files
 # set priority low to make it cheaper
+# instance type can be found here https://documentation.dnanexus.com/developer/api/running-analyses/instance-types
+
 import sys
 import math
 import os
@@ -31,7 +33,7 @@ def _parse_dx_delim(delim_line):
 
 
 out="GBA1/"
-ID_file="IDs/test_manifest.txt"
+ID_file=f"IDs/manifest_{prefix}.txt"
 ID_file2=os.path.basename(ID_file)
 fd=open(input_file)
 lines=fd.readlines()
@@ -51,7 +53,7 @@ for batch_number in range(number_of_batch):
             break
 
     print('dx run app-swiss-army-knife \
-    --instance-type mem1_ssd2_v2_x8 \
+    --instance-type mem3_ssd3_x4 \
     -iimage_file="dockers/Gauchian.tar.xz" \
     -icmd="gauchian -m {ID_file2} -g 38 -o {out} -p gba_{prefix}_{batch_number} --reference /app/GRCh38_full_analysis_set_plus_decoy_hla.fa" \
     --brief \
