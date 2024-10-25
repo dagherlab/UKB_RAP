@@ -28,9 +28,9 @@ pathname = args.name
 #get gff file and see if I can retrieve it
 ### check the reference genome before you read them
 ## GRCh38 (uncomment this for GRCh38)
-# ref=pd.read_csv("~/runs/go_lab/gencode/gencode.v44.annotation.gtf",sep = "\t",skiprows=5,header=None)
-## GRCh37 
-ref=pd.read_csv("~/runs/go_lab/gencode/gencode.v40lift37.annotation.gtf",sep = "\t",skiprows=5,header=None)
+ref=pd.read_csv("~/runs/go_lab/gencode/gencode.v44.annotation.gtf",sep = "\t",skiprows=5,header=None)
+## GRCh37 (uncomment this for GRCh37)
+# ref=pd.read_csv("~/runs/go_lab/gencode/gencode.v40lift37.annotation.gtf",sep = "\t",skiprows=5,header=None)
 
 ref.columns = ["seqname","source","feature","start","end","score","strand","frame","attribute"]
 ref = ref[ref.feature == "gene"]#only gene is the one we are looking at
@@ -66,4 +66,5 @@ p = pathname
 out = args.output
 print("the results bed file")
 print(all_df)
-all_df.to_csv(f"{out}/{p}.GRCh37.bed",sep = "\t", index=False, header=None)
+# all_df.to_csv(f"{out}/{p}.GRCh37.bed",sep = "\t", index=False, header=None)
+all_df.to_csv(f"{out}/{p}.GRCh38.bed",sep = "\t", index=False, header=None)
