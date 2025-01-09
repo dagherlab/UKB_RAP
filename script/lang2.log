@@ -1,0 +1,43 @@
+loading packages
+all the genes have been identified in gencode, you are good
+the results bed file
+           chr     start       end   gene
+44946     chr1  22710839  22921500  EPHB2
+3071505  chr19  49690898  49713731  CPT1C
+confirm the bed file is ok
+continue?(y/n)
+1 22710839 22921500 EPHB2
+19 49690898 49713731 CPT1C
+confirm the batch file is ok
+continue?(y/n)
+ID                                file-GxzVy5QJ95Kp4p30pZ913Q2p
+Class                             file
+Project                           project-GvFxJ08J95KXx97XFz8g2X2g
+Folder                            /temp
+Name                              lang2.GRCh38.bed
+State                             closing
+Visibility                        visible
+Types                             -
+Properties                        -
+Tags                              -
+Outgoing links                    -
+Created                           Wed Jan  8 19:57:58 2025
+Created by                        liulang
+Last modified                     Wed Jan  8 19:57:59 2025
+Media type                        
+archivalState                     "live"
+cloudAccount                      "cloudaccount-dnanexus"
+job-GxzVy68J95Kjbf7gQZY5b532
+job-GxzVy6QJ95KY7JYKfb7kpPQ2
+job-GxzVy70J95KV1xk178Bzp5p4
+job-GxzVy78J95Kj8F7V4qk3KbpY
+job-GxzVy7jJ95KgvFP4FJGGv3PX
+job-GxzVy80J95KgjK39X260XX6p
+job-GxzVy8QJ95KqfVVxZBY10V0v
+job-GxzVy8jJ95KZB7y4QVQ4vkZj
+job-GxzVy98J95KkxkgV99v2yk0X
+job-GxzVy9jJ95KkYFK324k0fGk2
+job-GxzVyB0J95Kj8F7V4qk3Kfq2
+job-GxzVyBQJ95Kj8F7V4qk3Kfq4
+job-GxzVyBjJ95KbkZk651G5Kp0Z
+job-GxzVyF8J95KQgPK0F16Kyjgb

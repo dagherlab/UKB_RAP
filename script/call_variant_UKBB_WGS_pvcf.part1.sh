@@ -1,10 +1,15 @@
 #!/bin/bash
 #gene_list is simply a text file with gene name on each line
-gene_list=$1
-output=$2 # output folder for bed file
-pathname=$3
-sleep_time=$4
-download_output=$5 # output folder for all vcf files.
+# gene_list txt file of gene names on each line
+# output output folder for bed files
+# pathname name of the task
+# sleep_time not important, waiting time if you are running this in screen
+# download_output # output folder for all vcf files.
+# keep_samples, sample file with sample ID on each line 
+
+read gene_list output pathname sleep_time download_output keep_samples <<< $@
+
+
 module load StdEnv/2020 scipy-stack/2020a python/3.8.10
 # be careful with the reference file in map_genes.py.
 if [ ! -f ${pathname}.GRCh38.bed ];then
@@ -17,6 +22,8 @@ fi
 ## check this to select project https://documentation.dnanexus.com/user/projects/project-navigation
 # dx select project-GvFxJ08J95KXx97XFz8g2X2g
 ## and make sure the bed file contains all the genes you want
+export PATH="$HOME/.local/bin:$PATH"
+
 echo "confirm the bed file is ok"
 echo "continue?(y/n)"
 read answer 
@@ -33,7 +40,11 @@ if [[ "$answer" == "y" ]];then
     if [[ "$answer" == "y" ]];then 
         dx mkdir -p $pathname/
         out=/$pathname/
-        bash call_variant_WGS.sh $pathname.GRCh38.bed $out ${pathname}.batch.txt
+        if [ ! -n ${keep_samples} ];then 
+            bash call_variant_WGS.sh $pathname.GRCh38.bed $out ${pathname}.batch.txt
+        else
+            bash call_variant_WGS.sh $pathname.GRCh38.bed $out ${pathname}.batch.txt $keep_samples
+        fi 
         exit
         sleep $4
         mkdir -p $download_output
@@ -63,5 +74,25 @@ fi
 
 # what have been done
 ## cem 152 genes
-# bash call_variant_UKBB_WGS_pvcf.part1.sh cem_152.txt . cem152 3h ~/scratch/genotype/UKBB_RAP/cem152/ > cem152.log
-# GBA1 took half hour to finish and 0.03 euro
+# bash call_variant_UKBB_WGS_pvcf.part1.sh cem_152.txt . cem152 3h ~/scratch/genotype/UKBB_RAP/cem152/ cem_152_samples.txt > cem152.log
+# GBA1 took half hour to finish and 0.03 euro without subsetting by samples
+# subsetting by samples add 20 more mins to the analysis
+
+# to download files
+# we can 
+
+## bash download_dx.sh ~/scratch/genotype/UKBB_RAP/cem152/ cem152/
+
+
+## Leah's X chr genes
+### there 400k samples in her case. I'm not gonna subset because it is longer if I subset. especially 400k
+# bash call_variant_UKBB_WGS_pvcf.part1.sh X_genes_to_extract.txt . leah3 3h ~/scratch/genotype/UKBB_RAP/leah3/ > leah3.log
+
+
+## Ziv's CPT1C and EPHB2
+# bash call_variant_UKBB_WGS_pvcf.part1.sh lang_ziv.txt . lang2 3h ~/scratch/genotype/UKBB_RAP/lang2/ > lang2.log
+
+
+## cem's 46 genes
+### its list comes with 48 genes but gla and g6pd are in leah's request. So I delete them
+# bash call_variant_UKBB_WGS_pvcf.part1.sh cem46.txt . cem46 3h ~/scratch/genotype/UKBB_RAP/cem46/ cem_152_samples.txt > cem46.log

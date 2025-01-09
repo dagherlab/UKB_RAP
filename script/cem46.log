@@ -1,0 +1,467 @@
+loading packages
+all the genes have been identified in gencode, you are good
+the results bed file
+           chr      start        end     gene
+47797     chr1   23845077   23868290    FUCA1
+80706     chr1   40072710   40097260     PPT1
+88989     chr1   43705824   43931165  ST3GAL3
+91320     chr1   43978943   43991170  B4GALT2
+225437    chr1  161171310  161177968  B4GALT3
+410660    chr2   85837120   85905199  ST3GAL5
+613940    chr3   32996609   33097202     GLB1
+653064    chr3   50299890   50312381    HYAL1
+702760    chr3  119211732  119240946  B4GALT4
+822812    chr4   22692914   22819575     GBA3
+877481    chr4  102630770  102760994    MANBA
+895861    chr4  114598770  114678225     UGT8
+990283    chr5   74640023   74722647     HEXB
+1085967   chr5  177600132  177610330  B4GALT7
+1129583   chr6   31857659   31862905     NEU1
+1312438   chr7   65960684   65982215     GUSB
+1429375   chr8   11842524   11869533     CTSB
+1434616   chr8   18055992   18084998    ASAH1
+1463729   chr8   43140464   43202855   HGSNAT
+1528996   chr8  133454848  133571926  ST3GAL1
+1564654   chr9   33104082   33167356  B4GALT1
+1573038   chr9   35736866   35749228     GBA2
+1620138   chr9  111896814  111935369     UGCG
+1819725  chr11    1752752    1764573     CTSD
+1832248  chr11    6612768    6619448     TPP1
+2007183  chr11  126355640  126440344  ST3GAL4
+2070609  chr12   45215987   45482280     ANO6
+2122669  chr12   64713445   64759431      GNS
+2268723  chr14   22871740   22881713    LRP10
+2314065  chr14   63684216   63728065    SGPP1
+2333188  chr14   74476192   74494177     NPC2
+2342490  chr14   87837820   87993665     GALC
+2458883  chr15   72340924   72376420     HEXA
+2622750  chr16   70375977   70439237  ST3GAL2
+2751649  chr17   42536241   42544449    NAGLU
+2761403  chr17   44345246   44353106      GRN
+2839914  chr17   80206716   80220923     SGSH
+2878968  chr18   31622246   31685836  B4GALT6
+2965850  chr19   12646511   12666742   MAN2B1
+3112011  chr20    5068232    5113103  TMEM230
+3166083  chr20   49632945   49713878  B4GALT5
+3195668  chr21   32628759   32728040    SYNJ1
+3278210  chr22   42058334   42070842     NAGA
+3284976  chr22   46684410   46738252     CERK
+3292678  chr22   50622754   50628173     ARSA
+3370505   chrX  101393273  101408012      GLA
+3398773   chrX  149476988  149521096      IDS
+3411030   chrX  154517825  154547572     G6PD
+confirm the bed file is ok
+continue?(y/n)
+1 23845077 23868290 FUCA1
+1 40072710 40097260 PPT1
+1 43705824 43931165 ST3GAL3
+1 43978943 43991170 B4GALT2
+1 161171310 161177968 B4GALT3
+2 85837120 85905199 ST3GAL5
+3 32996609 33097202 GLB1
+3 50299890 50312381 HYAL1
+3 119211732 119240946 B4GALT4
+4 22692914 22819575 GBA3
+4 102630770 102760994 MANBA
+4 114598770 114678225 UGT8
+5 74640023 74722647 HEXB
+5 177600132 177610330 B4GALT7
+6 31857659 31862905 NEU1
+7 65960684 65982215 GUSB
+8 11842524 11869533 CTSB
+8 18055992 18084998 ASAH1
+8 43140464 43202855 HGSNAT
+8 133454848 133571926 ST3GAL1
+9 33104082 33167356 B4GALT1
+9 35736866 35749228 GBA2
+9 111896814 111935369 UGCG
+11 1752752 1764573 CTSD
+11 6612768 6619448 TPP1
+11 126355640 126440344 ST3GAL4
+12 45215987 45482280 ANO6
+12 64713445 64759431 GNS
+14 22871740 22881713 LRP10
+14 63684216 63728065 SGPP1
+14 74476192 74494177 NPC2
+14 87837820 87993665 GALC
+15 72340924 72376420 HEXA
+16 70375977 70439237 ST3GAL2
+17 42536241 42544449 NAGLU
+17 44345246 44353106 GRN
+17 80206716 80220923 SGSH
+18 31622246 31685836 B4GALT6
+19 12646511 12666742 MAN2B1
+20 5068232 5113103 TMEM230
+20 49632945 49713878 B4GALT5
+21 32628759 32728040 SYNJ1
+22 42058334 42070842 NAGA
+22 46684410 46738252 CERK
+22 50622754 50628173 ARSA
+X 149476988 149521096 IDS
+confirm the batch file is ok
+continue?(y/n)
+ID                                file-GxzZgbjJ95KbKG7BK289ZGqK
+Class                             file
+Project                           project-GvFxJ08J95KXx97XFz8g2X2g
+Folder                            /temp
+Name                              cem46.GRCh38.bed
+State                             closing
+Visibility                        visible
+Types                             -
+Properties                        -
+Tags                              -
+Outgoing links                    -
+Created                           Wed Jan  8 23:08:55 2025
+Created by                        liulang
+Last modified                     Wed Jan  8 23:08:56 2025
+Media type                        
+archivalState                     "live"
+cloudAccount                      "cloudaccount-dnanexus"
+data will be subset by sample file cem_152_samples.txt
+job-GxzZgfQJ95KbF9V218b5G4x4
+data will be subset by sample file cem_152_samples.txt
+job-GxzZgg0J95KqQby0Y2GZy5y5
+data will be subset by sample file cem_152_samples.txt
+job-GxzZggQJ95KVKJb3g8y3GV86
+data will be subset by sample file cem_152_samples.txt
+job-GxzZgj0J95KgvFP4FJGGxYPG
+data will be subset by sample file cem_152_samples.txt
+job-GxzZgjQJ95KQgPK0F16KzVK9
+data will be subset by sample file cem_152_samples.txt
+job-GxzZgk0J95KQz0VpzbQv8gPf
+data will be subset by sample file cem_152_samples.txt
+job-GxzZgkQJ95Kv23G3vJVQXQPQ
+data will be subset by sample file cem_152_samples.txt
+job-GxzZgp0J95KVqjFXk415xz4g
+data will be subset by sample file cem_152_samples.txt
+job-GxzZgpQJ95Kq0JypG46BKFqX
+data will be subset by sample file cem_152_samples.txt
+job-GxzZgq0J95KbxbJvgk1p19vg
+data will be subset by sample file cem_152_samples.txt
+job-GxzZgqQJ95KxQF0z49448kKX
+data will be subset by sample file cem_152_samples.txt
+job-GxzZgv0J95KbKG7BK289ZGv1
+data will be subset by sample file cem_152_samples.txt
+job-GxzZgvQJ95KQgPK0F16KzVKF
+data will be subset by sample file cem_152_samples.txt
+job-GxzZgx0J95KY0VbZBK9Pq0VX
+data will be subset by sample file cem_152_samples.txt
+job-GxzZgxQJ95KQq51q7f5zFGV2
+data will be subset by sample file cem_152_samples.txt
+job-GxzZgxjJ95KyQVPGVZGX4vvy
+data will be subset by sample file cem_152_samples.txt
+job-GxzZgy8J95KZzvYGGJJv1BY2
+data will be subset by sample file cem_152_samples.txt
+job-GxzZgyjJ95KZPJqv8Jv4FJ38
+data will be subset by sample file cem_152_samples.txt
+job-GxzZgz8J95KQq51q7f5zFGV8
+data will be subset by sample file cem_152_samples.txt
+job-GxzZgzjJ95KqVf14k930zz9f
+data will be subset by sample file cem_152_samples.txt
+job-GxzZj08J95KQz0VpzbQv8gPy
+data will be subset by sample file cem_152_samples.txt
+job-GxzZj0jJ95KVKJb3g8y3GV8Y
+data will be subset by sample file cem_152_samples.txt
+job-GxzZj18J95KbKG7BK289ZGv6
+data will be subset by sample file cem_152_samples.txt
+job-GxzZj1jJ95KQz0VpzbQv8gQ0
+data will be subset by sample file cem_152_samples.txt
+job-GxzZj28J95KbF9V218b5G4xP
+data will be subset by sample file cem_152_samples.txt
+job-GxzZj2jJ95Kj13jFqG6JgB0f
+data will be subset by sample file cem_152_samples.txt
+job-GxzZj38J95KqVf14k930zzB1
+data will be subset by sample file cem_152_samples.txt
+job-GxzZj3jJ95Kfj3v2YvZ42ppz
+data will be subset by sample file cem_152_samples.txt
+job-GxzZj48J95KQgPK0F16KzVKY
+data will be subset by sample file cem_152_samples.txt
+job-GxzZj4jJ95Kv23G3vJVQXQQ3
+data will be subset by sample file cem_152_samples.txt
+job-GxzZj58J95KY7JYKfb7kqX91
+data will be subset by sample file cem_152_samples.txt
+job-GxzZj5jJ95KbxbJvgk1p19x4
+data will be subset by sample file cem_152_samples.txt
+job-GxzZj68J95KZB7y4QVQ4xvK9
+data will be subset by sample file cem_152_samples.txt
+job-GxzZj6jJ95KQgPK0F16KzVKk
+data will be subset by sample file cem_152_samples.txt
+job-GxzZj78J95KQ65fZQPkpfKZj
+data will be subset by sample file cem_152_samples.txt
+job-GxzZj7jJ95Kv23G3vJVQXQQ8
+data will be subset by sample file cem_152_samples.txt
+job-GxzZj80J95Kz8B2x9FvJJ6KF
+data will be subset by sample file cem_152_samples.txt
+job-GxzZj8QJ95KQz0VpzbQv8gQ7
+data will be subset by sample file cem_152_samples.txt
+job-GxzZj90J95KjXyVbfjYBz6YZ
+data will be subset by sample file cem_152_samples.txt
+job-GxzZj9QJ95KfBZ7JP8V12kfX
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjB0J95KY0VbZBK9Pq0Y3
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjBQJ95KbKG7BK289ZGvp
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjF0J95KfBZ7JP8V12kfb
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjFQJ95KjPBQBGb4k1vBQ
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjG0J95KZQKFgg95y301v
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjGQJ95Kv23G3vJVQXjK4
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjJ0J95KzGKzqGPPPQbyf
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjJjJ95KZB7y4QVQ4xvKY
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjK8J95Kv23G3vJVQXjK7
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjKjJ95Kv23G3vJVQXjK9
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjP0J95Kp4p30pZ914J77
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjPQJ95KbxbJvgk1p19xZ
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjQ0J95Kvpbq6Xby9FG8v
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjQQJ95KqQby0Y2GZy6Z1
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjV0J95KQF6j8g1z0v7Pb
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjVQJ95KgvFP4FJGGxZ7K
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjX0J95KZPJqv8Jv4FJ6f
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjXQJ95KbF9V218b5G4yY
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjY0J95KkZZ5b3KP7zQXf
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjYQJ95KQgPK0F16KzX44
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjZ0J95KqQby0Y2GZy6ZG
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjZQJ95KgvFP4FJGGxZ7g
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjb0J95Kb6j24YkV824GB
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjbQJ95KVgpZV8Fg03Gj1
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjbjJ95Kj13jFqG6JgB1J
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjfQJ95KqVf14k930zzF2
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjg0J95KZPJqv8Jv4FJ76
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjgQJ95KZPJqv8Jv4FJ78
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjj0J95KzGKzqGPPPQbz9
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjj8J95KbF9V218b5G5Yx
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjjjJ95KVqjFXk415xzxX
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjk8J95KbF9V218b5G5Yz
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjkjJ95KkYFK324k0gZ4k
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjp8J95KbKG7BK289ZGyk
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjq0J95KvPfB35zQ1YqKB
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjqQJ95KV1xk178Bzq3Pb
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjv0J95KZPJqv8Jv4FJ7G
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjvQJ95Kp2f5v70fkzKZ1
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjx0J95Kv23G3vJVQY11q
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjx8J95Kqq4KJz00bXbVX
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjxjJ95Kz8B2x9FvJJ6P3
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjy8J95Kv23G3vJVQY129
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjyjJ95KVKJb3g8y3GVxq
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjz8J95KyBXb90x7KgJGk
+data will be subset by sample file cem_152_samples.txt
+job-GxzZjzjJ95Kz8B2x9FvJJ73y
+data will be subset by sample file cem_152_samples.txt
+job-GxzZk08J95KQgPK0F16KzX4f
+data will be subset by sample file cem_152_samples.txt
+job-GxzZk0jJ95KY0VbZBK9Pq0Z5
+data will be subset by sample file cem_152_samples.txt
+job-GxzZk18J95Kj13jFqG6JgFFV
+data will be subset by sample file cem_152_samples.txt
+job-GxzZk1jJ95KkYFK324k0gZ50
+data will be subset by sample file cem_152_samples.txt
+job-GxzZk28J95KQz0VpzbQv8gVb
+data will be subset by sample file cem_152_samples.txt
+job-GxzZk2QJ95Kj13jFqG6JgFFY
+data will be subset by sample file cem_152_samples.txt
+job-GxzZk30J95KVgpZV8Fg03GkY
+data will be subset by sample file cem_152_samples.txt
+job-GxzZk3QJ95KQF6j8g1z0v7Qy
+data will be subset by sample file cem_152_samples.txt
+job-GxzZk40J95Kv23G3vJVQY12Y
+data will be subset by sample file cem_152_samples.txt
+job-GxzZk4QJ95Kq0JypG46BKFxP
+data will be subset by sample file cem_152_samples.txt
+job-GxzZk50J95KfBZ7JP8V12kqq
+data will be subset by sample file cem_152_samples.txt
+job-GxzZk5QJ95KbF9V218b5G5fv
+data will be subset by sample file cem_152_samples.txt
+job-GxzZk5jJ95KqQby0Y2GZy6f3
+data will be subset by sample file cem_152_samples.txt
+job-GxzZk68J95Kv23G3vJVQY12p
+data will be subset by sample file cem_152_samples.txt
+job-GxzZk6jJ95KbF9V218b5G5g1
+data will be subset by sample file cem_152_samples.txt
+job-GxzZk78J95Kqq4KJz00bXbX1
+data will be subset by sample file cem_152_samples.txt
+job-GxzZk7jJ95KkYFK324k0gZkq
+data will be subset by sample file cem_152_samples.txt
+job-GxzZk88J95KQ65fZQPkpfPbp
+data will be subset by sample file cem_152_samples.txt
+job-GxzZk8jJ95KxQF0z49448kVx
+data will be subset by sample file cem_152_samples.txt
+job-GxzZk98J95Kq53qXxxbV06F1
+data will be subset by sample file cem_152_samples.txt
+job-GxzZk9jJ95KvPfB35zQ1YqP6
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkB8J95KQz0VpzbQv8gX1
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkBjJ95KZPJqv8Jv4FJ81
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkF0J95KgKqBVF47kGk4p
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkFQJ95KVKJb3g8y3GVyg
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkG0J95Kz8B2x9FvJJ74k
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkGQJ95KjPBQBGb4k1vFy
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkJ0J95KgvFP4FJGGxZ93
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkJQJ95KbF9V218b5G5gB
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkK0J95Kfj3v2YvZ42v6Y
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkKjJ95KbKG7BK289ZJ03
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkP8J95KxQF0z49448kXb
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkPjJ95KpBFx17B1xzF9K
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkQ8J95KqQby0Y2GZy6fj
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkQjJ95KjXyVbfjYBz79Y
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkV8J95KzGKzqGPPPQxvX
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkVjJ95KzGKzqGPPPQxvj
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkX8J95KxQF0z49448kXx
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkXjJ95Kp4p30pZ914J80
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkY0J95KbF9V218b5G5gP
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkYQJ95Kvpbq6Xby9FGyp
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkZ8J95KyQVPGVZGX4vz5
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkZjJ95KZzvYGGJJv1F9k
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkb8J95KVgpZV8Fg03GpP
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkbjJ95KZzvYGGJJv1F9q
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkf8J95Kq0JypG46BKYpZ
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkfjJ95KyQVPGVZGX4xZ0
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkg8J95KqQby0Y2GZy6g7
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkgjJ95Kq0JypG46BKYpf
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkj8J95KjPBQBGb4k1vG6
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkjjJ95KY0VbZBK9Pq0b4
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkk0J95KZzvYGGJJv1FB1
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkkQJ95Kz8B2x9FvJJ75J
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkp0J95Kv23G3vJVQY90X
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkpQJ95KZPJqv8Jv4FJ8F
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkq0J95KkYFK324k0gbP4
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkqQJ95KyQVPGVZGX4xZ9
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkv0J95KgKqBVF47kGkkg
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkvQJ95KbF9V218b5G5j1
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkx0J95KQgPK0F16KzX69
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkxQJ95KqVf14k93100fV
+data will be subset by sample file cem_152_samples.txt
+job-GxzZky0J95KVgpZV8Fg03Gq4
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkyQJ95KxQF0z49448kbf
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkz0J95KgvFP4FJGGxZBj
+data will be subset by sample file cem_152_samples.txt
+job-GxzZkzQJ95KZPJqv8Jv4FJ8V
+data will be subset by sample file cem_152_samples.txt
+job-GxzZp00J95KVqjFXk415xzzq
+data will be subset by sample file cem_152_samples.txt
+job-GxzZp0QJ95KQgPK0F16KzX6J
+data will be subset by sample file cem_152_samples.txt
+job-GxzZp10J95Kv23G3vJVQY910
+data will be subset by sample file cem_152_samples.txt
+job-GxzZp1QJ95KbKG7BK289ZJ1k
+data will be subset by sample file cem_152_samples.txt
+job-GxzZp20J95KbKG7BK289ZJ1q
+data will be subset by sample file cem_152_samples.txt
+job-GxzZp2QJ95KyQVPGVZGX4xZY
+data will be subset by sample file cem_152_samples.txt
+job-GxzZp30J95KZPJqv8Jv4FJ8Z
+data will be subset by sample file cem_152_samples.txt
+job-GxzZp3QJ95KVqjFXk415xzzz
+data will be subset by sample file cem_152_samples.txt
+job-GxzZp40J95KQgPK0F16KzX6V
+data will be subset by sample file cem_152_samples.txt
+job-GxzZp4QJ95KVgpZV8Fg03GqX
+data will be subset by sample file cem_152_samples.txt
+job-GxzZp50J95KxQF0z49448pF2
+data will be subset by sample file cem_152_samples.txt
+job-GxzZp58J95KvPfB35zQ1YqV4
+data will be subset by sample file cem_152_samples.txt
+job-GxzZp5jJ95KbF9V218b5G5jG
+data will be subset by sample file cem_152_samples.txt
+job-GxzZp68J95KVgpZV8Fg03Gqj
+data will be subset by sample file cem_152_samples.txt
+job-GxzZp70J95KQF6j8g1z0v7Vy
+data will be subset by sample file cem_152_samples.txt
+job-GxzZp7QJ95KQgPK0F16KzX6Z
+data will be subset by sample file cem_152_samples.txt
+job-GxzZp80J95KqQby0Y2GZy6zy
+data will be subset by sample file cem_152_samples.txt
+job-GxzZp8QJ95KQgPK0F16KzX6f
+data will be subset by sample file cem_152_samples.txt
+job-GxzZp90J95KpBjQKfy21P4FP
+data will be subset by sample file cem_152_samples.txt
+job-GxzZp9QJ95Kz8B2x9FvJJ75z
+data will be subset by sample file cem_152_samples.txt
+job-GxzZpB0J95KgvFP4FJGGxZF7
+data will be subset by sample file cem_152_samples.txt
+job-GxzZpBQJ95Kfj3v2YvZ42xYG
+data will be subset by sample file cem_152_samples.txt
+job-GxzZpF0J95Kj13jFqG6JgYGz
+data will be subset by sample file cem_152_samples.txt
+job-GxzZpFQJ95KQgPK0F16KzX7z

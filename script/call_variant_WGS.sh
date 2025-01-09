@@ -2,10 +2,11 @@
 # this script submit jobs batches by batches
 # make sure the project is correct before you run it.
 # the paths are in batch_file
+# please subset data by samples. keep_sample is a txt file with family IDs on each line
+read bed_file out batch_file keep_samples <<< $@
 
-bed_file=$1
-out=$2
-batch_file=$3
+
+
 
 pathname=$(basename $bed_file .GRCh38.bed)
 bed_file1=$(basename $bed_file)
@@ -33,7 +34,18 @@ cat $batch_file|while read -r file;do
             # skip the job if it doesn't exit (save some money)
             echo "${out}/${file2}.subset.vcf.gz found, then skipped"
         else 
-            dx run app-swiss-army-knife --instance-type mem1_ssd1_v2_x8 -y -iin="$file" -iin="${file}.tbi" -iin="project-GvFxJ08J95KXx97XFz8g2X2g:temp/${bed_file1}" -icmd="bcftools view -Oz -o ${file2}.subset.vcf.gz -R ${bed_file1} $file1" --destination ${out} --brief --priority low
+            # subset data by sample IDs
+            if [ -n "$keep_samples" ]; then
+                echo "data will be subset by sample file $keep_samples"
+                sample_file=$(basename $keep_samples)
+                if ! dx ls "temp/$keep_samples" > /dev/null 2>&1; then
+                    echo "uploading sample file"
+                    dx upload $keep_samples --path temp/
+                fi 
+                dx run app-swiss-army-knife --instance-type mem1_ssd1_v2_x8 -y -iin="$file" -iin="project-GvFxJ08J95KXx97XFz8g2X2g:temp/${sample_file}" -iin="${file}.tbi" -iin="project-GvFxJ08J95KXx97XFz8g2X2g:temp/${bed_file1}" -icmd="bcftools view --samples-file ${keep_samples} -Oz -o ${file2}.subset.vcf.gz -R ${bed_file1} $file1 --force-samples" --destination ${out} --brief --priority low
+            else 
+                dx run app-swiss-army-knife --instance-type mem1_ssd1_v2_x8 -y -iin="$file" -iin="${file}.tbi" -iin="project-GvFxJ08J95KXx97XFz8g2X2g:temp/${bed_file1}" -icmd="bcftools view -Oz -o ${file2}.subset.vcf.gz -R ${bed_file1} $file1" --destination ${out} --brief --priority low
+            fi 
         fi
     else
         echo "file $file doesn't exit"

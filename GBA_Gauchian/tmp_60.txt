@@ -1,106 +1,417 @@
-closed	2023-09-04 10:09:23	18.35 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6000380_23193_0_0.cram	file-FyyZjzQJkF68xFYG15J3xKBY	
-closed	2023-09-04 10:09:21	18.24 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6024476_23193_0_0.cram	file-FykVZpjJkF6KQp2zGQXfQjKQ	
-closed	2023-09-04 10:09:19	16.16 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6009692_23193_0_0.cram	file-Fyzx0F8JkF67Zgf63FF05BP7	
-closed	2023-09-04 10:08:34	15.16 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6020585_23193_0_0.cram	file-G2P80vjJkF69jzJJ0j7Q23yv	
-closed	2023-09-04 10:08:28	17.25 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6013335_23193_0_0.cram	file-G2KxY2QJkF69jzJJ0j7Q0gjx	
-closed	2023-09-04 10:08:05	14.53 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6020036_23193_0_0.cram	file-FyvpXk8JkF64kGzK4KQg8Gv8	
-closed	2023-09-04 10:08:04	15.69 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6008129_23193_0_0.cram	file-FyZvyBQJkF60P479FX8Z0G2G	
-closed	2023-09-04 10:08:04	12.98 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6023680_23193_0_0.cram	file-Fyv39K8JkF6Jp6vqF2v4bZZF	
-closed	2023-09-04 10:08:04	14.57 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6009879_23193_0_0.cram	file-Fykkp4QJkF60yyfyBZ74vZ3B	
-closed	2023-09-04 10:08:03	24.69 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6003059_23193_0_0.cram	file-FyzQGJQJkF6Jj1zJ70jFqXXg	
-closed	2023-09-04 10:08:02	16.83 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6022432_23193_0_0.cram	file-Fyy7yb8JkF6F3Bvy4YYPzPP4	
-closed	2023-09-04 10:07:59	17.26 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6007006_23193_0_0.cram	file-FyzPGg0JkF6Kf79v2zqZV8V4	
-closed	2023-09-04 10:07:57	18.95 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6021272_23193_0_0.cram	file-FyFx0gjJkF66jkJ192z6zyQk	
-closed	2023-09-04 10:07:56	17.01 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6009002_23193_0_0.cram	file-FyJF3KQJkF65J8264jpY8BF3	
-closed	2023-09-04 10:07:56	15.71 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6014287_23193_0_0.cram	file-FyxjPf8JkF66fXzP3286fXkX	
-closed	2023-09-04 10:07:35	16.67 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6019218_23193_0_0.cram	file-G2PBQp8JkF6K868k2502fk4b	
-closed	2023-09-04 10:07:28	13.83 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6013779_23193_0_0.cram	file-G2VPPy8JkF66Yv3jPFpg3Jgf	
-closed	2023-09-04 10:07:06	15.95 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6012628_23193_0_0.cram	file-Fz50428JkF6G9B8bJXK0YvV8	
-closed	2023-09-04 10:07:06	31.09 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6023026_23193_0_0.cram	file-Fz03V70JkF66yFfy717yyjx8	
-closed	2023-09-04 10:07:04	13.12 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6000073_23193_0_0.cram	file-FyQfBbjJkF69vQ1J990PBK6q	
-closed	2023-09-04 10:07:02	16.70 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6017546_23193_0_0.cram	file-Fyyxb2QJkF64JPKqGxz1kx1b	
-closed	2023-09-04 10:07:02	15.43 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6005774_23193_0_0.cram	file-Fyy58g8JkF6BGzZ8GyY5YG6Q	
-closed	2023-09-04 10:06:26	14.12 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6023009_23193_0_0.cram	file-G2VjpqQJkF657VV80gq5PxqY	
-closed	2023-09-04 10:06:19	14.23 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6018058_23193_0_0.cram	file-G2VV5Q0JkF68kk9pGGPjj893	
-closed	2023-09-04 10:05:54	13.99 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6007434_23193_0_0.cram	file-Fyv3JQQJkF64kGzK4KQg5gqZ	
-closed	2023-09-04 10:05:25	16.95 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6001976_23193_0_0.cram	file-G2X8818JkF6BPk2qGpX84X2X	
-closed	2023-09-04 10:04:11	16.61 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6006557_23193_0_0.cram	file-G22yY30JkF6GZk0k5XzqZJqf	
-closed	2023-09-04 10:03:07	15.68 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6006115_23193_0_0.cram	file-G24xpP0JkF65GKk5K7qYjqxy	
-closed	2023-09-04 10:03:06	16.54 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6015131_23193_0_0.cram	file-G24y6y0JkF6PPV2j3kv1bbY0	
-closed	2023-09-04 10:03:06	16.24 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6007029_23193_0_0.cram	file-G23x8f8JkF6B1xj85K1pBY69	
-closed	2023-09-04 10:03:05	16.61 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6016130_23193_0_0.cram	file-G25K5XjJkF60fv6j1xXjf2P1	
-closed	2023-09-04 10:02:59	15.43 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6001684_23193_0_0.cram	file-G269870JkF60G1Q30PFq9yPQ	
-closed	2023-09-04 10:02:12	17.82 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6023678_23193_0_0.cram	file-G28YfvQJkF650z2X4x241XBV	
-closed	2023-09-04 10:02:10	17.27 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6010747_23193_0_0.cram	file-G28Q5KjJkF63g5KYG09Bq2Vv	
-closed	2023-09-04 10:02:08	16.63 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6021164_23193_0_0.cram	file-G29g7b0JkF6FY2Zf41Yqj8fV	
-closed	2023-09-04 10:02:07	17.32 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6016636_23193_0_0.cram	file-G2B4gFQJkF6696qY41ybQBX8	
-closed	2023-09-04 10:02:06	17.75 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6024041_23193_0_0.cram	file-G29zgF0JkF69BF1z4252p550	
-closed	2023-09-04 10:02:06	16.65 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6003047_23193_0_0.cram	file-G29fQ0QJkF6FY2Zf41Yqj6g3	
-closed	2023-09-04 10:00:57	19.53 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6011739_23193_0_0.cram	file-G2G1QgQJkF6696qY41ybffqY	
-closed	2023-09-04 10:00:56	18.01 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6007417_23193_0_0.cram	file-G2FjPf8JkF65YByBPYvPBpjQ	
-closed	2023-09-04 10:00:53	20.14 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6008966_23193_0_0.cram	file-G2Fk0J0JkF6696qY41ybf46P	
-closed	2023-09-04 10:00:53	18.42 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6002112_23193_0_0.cram	file-G2BBZXQJkF61Bfkf41p2G897	
-closed	2023-09-04 10:00:52	18.88 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6021433_23193_0_0.cram	file-G2G0Vz0JkF6FVB0041yG3fXY	
-closed	2023-09-04 10:00:50	22.54 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6005872_23193_0_0.cram	file-G2G25YjJkF64K17x41jGqBkf	
-closed	2023-09-04 10:00:04	20.98 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6020713_23193_0_0.cram	file-G2J7zX8JkF6B3Qg512YJ76VX	
-closed	2023-09-04 10:00:02	19.30 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6016017_23193_0_0.cram	file-G2Gxp2QJkF643jB5F47K9F1z	
-closed	2023-09-04 10:00:02	19.00 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6019976_23193_0_0.cram	file-G2KB33jJkF60Q9Q044Yb4Gyg	
-closed	2023-09-04 10:00:01	19.09 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6010618_23193_0_0.cram	file-G2KF7fQJkF65V8K3PpG57YYZ	
-closed	2023-09-04 09:59:59	19.62 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6024070_23193_0_0.cram	file-G2JQgkjJkF6KB2k58ZVg86P4	
-closed	2023-09-04 09:59:58	18.68 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6009345_23193_0_0.cram	file-G2GvQ50JkF61YgvGJ5f0XbBY	
-closed	2023-09-04 09:59:57	23.99 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6016758_23193_0_0.cram	file-G2K8b7QJkF6K868k2502VbKB	
-closed	2023-09-04 09:59:55	21.13 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6019714_23193_0_0.cram	file-G2JxqGjJkF67x6yQ24j4k6qf	
-closed	2023-09-04 09:59:55	18.66 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6017823_23193_0_0.cram	file-G2GfGYjJkF6J1xGbPk9Gf2bV	
-closed	2023-09-04 09:57:29	18.81 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6019556_23193_0_0.cram	file-FxQJqP0JkF6JbjZY5qXZxJqg	
-closed	2023-09-04 09:57:28	16.65 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6015013_23193_0_0.cram	file-Fy2g6bjJkF6Gkjj88975x1Fk	
-closed	2023-09-04 09:57:27	18.39 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6007391_23193_0_0.cram	file-FxZjy98JkF6JV6g0Pp0j2xyK	
-closed	2023-09-04 09:57:21	16.89 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6007279_23193_0_0.cram	file-FxV3zFQJkF60jQ8Z19g5GZg6	
-closed	2023-09-04 09:57:20	17.34 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6012341_23193_0_0.cram	file-FxQx77QJkF68FF030kj8J0Gg	
-closed	2023-09-04 09:57:20	15.96 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6011849_23193_0_0.cram	file-Fy3P3yQJkF6346QX53y3xzk7	
-closed	2023-09-04 09:56:08	15.64 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6009247_23193_0_0.cram	file-FxQG7x0JkF68Vzfp3yZQPBXx	
-closed	2023-09-04 09:56:07	16.75 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6023044_23193_0_0.cram	file-FxvQx0jJkF609BgxP7kkQZB7	
-closed	2023-09-04 09:56:05	16.88 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6021255_23193_0_0.cram	file-FxfPP7QJkF6J00B6Fzv1QQj7	
-closed	2023-09-04 09:56:04	17.30 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6023725_23193_0_0.cram	file-FxQq9x8JkF6J190p9V2K9Y9Y	
-closed	2023-09-04 09:56:00	16.01 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6001355_23193_0_0.cram	file-Fy3V2JjJkF626bpZJ3Zk99Qf	
-closed	2023-09-04 09:55:59	19.90 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6005359_23193_0_0.cram	file-FxVGzXjJkF6BxKfyJYky735X	
-closed	2023-09-04 09:54:19	18.23 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6022218_23193_0_0.cram	file-FyXX870JkF6Ky2406qkbkxJj	
-closed	2023-09-04 09:54:17	12.40 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6017812_23193_0_0.cram	file-FyJx6gQJkF64zFGFKZfKqpfy	
-closed	2023-09-04 09:54:15	16.63 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6014609_23193_0_0.cram	file-FyQVGXQJkF649QqFPqBQz8g5	
-closed	2023-09-04 09:54:14	15.27 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6017455_23193_0_0.cram	file-FyV7BQ0JkF63jBZ09X3g014y	
-closed	2023-09-04 09:53:28	16.63 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6005985_23193_0_0.cram	file-FyJG7FQJkF65168p4kp50Ygv	
-closed	2023-09-04 09:53:28	16.44 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6006365_23193_0_0.cram	file-FyFy1kQJkF6Gb5Gb3BYvF7jK	
-closed	2023-09-04 09:53:27	16.87 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6003358_23193_0_0.cram	file-FyJFJFQJkF662Xz25Y9Vz7y2	
-closed	2023-09-04 09:53:27	17.57 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6022503_23193_0_0.cram	file-FyYXf98JkF6Jkqvy5xBF1Jkk	
-closed	2023-09-04 09:53:27	12.52 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6023498_23193_0_0.cram	file-FyJJJv0JkF6K18F756k2Xx6z	
-closed	2023-09-04 09:53:25	19.81 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6017599_23193_0_0.cram	file-Fy90PBjJkF69yvKGFxGqfp16	
-closed	2023-09-04 09:53:25	16.01 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6014274_23193_0_0.cram	file-FyJ6y78JkF69KVzK9QvkkkF3	
-closed	2023-09-04 09:53:19	17.47 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6020551_23193_0_0.cram	file-FyZ85qjJkF6PqYq776zYkzB0	
-closed	2023-09-04 09:53:18	15.16 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6014889_23193_0_0.cram	file-FyVGGGjJkF64ZXBQ31ff6PX0	
-closed	2023-09-04 09:53:18	17.12 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6004810_23193_0_0.cram	file-FyJG1V8JkF68bQP44k0PX2qj	
-closed	2023-09-04 09:52:52	29.71 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6017361_23193_0_0.cram	file-G2v2ZXjJkF66vXgb6YF00jFK	
-closed	2023-09-04 09:52:51	16.84 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6017864_23193_0_0.cram	file-G2qVvV0JkF64X6Xb8x7k4j5Q	
-closed	2023-09-04 09:52:48	20.01 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6019432_23193_0_0.cram	file-G2qqVVjJkF67JgXb9xZv5jjf	
-closed	2023-09-04 09:52:44	14.30 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6009653_23193_0_0.cram	file-G2v2fBQJkF66J0gp9K0xGP10	
-closed	2023-09-04 09:52:08	16.32 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6022307_23193_0_0.cram	file-FyYG5q8JkF6KzfzxKbZ39X6X	
-closed	2023-09-04 09:52:08	14.08 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6021584_23193_0_0.cram	file-FyXBjPjJkF659V6YF8y0JgG5	
-closed	2023-09-04 09:52:08	17.06 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6016810_23193_0_0.cram	file-FyVyb10JkF64j33F8PfV8JB5	
-closed	2023-09-04 09:52:07	14.75 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6008504_23193_0_0.cram	file-FyXKQQQJkF61P8z9Fz67kkBz	
-closed	2023-09-04 09:52:06	16.13 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6023097_23193_0_0.cram	file-FyYg5Q0JkF6BxZ50J7YfGgKj	
-closed	2023-09-04 09:52:06	13.55 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6023881_23193_0_0.cram	file-FyZybq8JkF6PqYq776zYx5j9	
-closed	2023-09-04 09:52:06	20.01 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6018228_23193_0_0.cram	file-Fy9g6G8JkF60XK06JvVXVbxY	
-closed	2023-09-04 09:52:04	13.80 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6023315_23193_0_0.cram	file-FyV34X8JkF62kyQq31X7Y6f9	
-closed	2023-09-04 09:52:04	19.91 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6023996_23193_0_0.cram	file-FyBPXqjJkF68X1x56K310Vyq	
-closed	2023-09-04 09:52:03	18.26 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6018121_23193_0_0.cram	file-FyB1jv8JkF62bzBv1K762y4f	
-closed	2023-09-04 09:52:03	16.87 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6005514_23193_0_0.cram	file-FyVxX48JkF688qPX4xp2XP7j	
-closed	2023-09-04 09:52:02	17.67 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6012038_23193_0_0.cram	file-FyXz8K8JkF68kv51PYb7f4Kg	
-closed	2023-09-04 09:52:01	15.44 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6018347_23193_0_0.cram	file-FyVG7K0JkF6GGqY60Bz2Bbb0	
-closed	2023-09-04 09:51:58	20.15 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6010190_23193_0_0.cram	file-G2x1G2jJkF672Q0G11yq85k8	
-closed	2023-09-04 09:51:56	23.32 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6011545_23193_0_0.cram	file-G2x3Fg8JkF6F88jv6p5f84vZ	
-closed	2023-09-04 09:50:48	25.80 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6017352_23193_0_0.cram	file-G2fgXv0JkF6JfyPkJqF7q3YZ	
-closed	2023-09-04 09:50:47	20.79 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6010558_23193_0_0.cram	file-G2fZppjJkF6F1qXQFkfxPjXj	
-closed	2023-09-04 09:50:46	13.63 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6006645_23193_0_0.cram	file-FyY74gjJkF67Kz93JPVX7gVb	
-closed	2023-09-04 09:50:46	12.58 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6019815_23193_0_0.cram	file-FyXj0x0JkF6B9Z5Z98KkGY43	
-closed	2023-09-04 09:50:46	13.05 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6021362_23193_0_0.cram	file-FyZ9P2QJkF636GPk3zX6x9Y1	
-closed	2023-09-04 09:50:44	14.15 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6015539_23193_0_0.cram	file-FyX7bp0JkF675GvP2Zb2gkzY	
-closed	2023-09-04 09:50:44	16.75 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6010954_23193_0_0.cram	file-FyJvxpjJkF6PkF5f4k4b9gxQ	
-closed	2023-09-04 09:50:43	16.91 GB	/Bulk/Whole genome sequences/Whole genome CRAM files/60/6023918_23193_0_0.cram	file-FyY0Q3jJkF65BjYFK4fVkYk5	
+closed	2024-10-22 20:17:22	14.64 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6014834_23372_0_0.cram	file-GFkKfkjJYv1qjp9f2VpPJ8zY	
+closed	2024-10-22 20:15:30	18.40 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6006835_23372_0_0.cram	file-G9PK26QJYv1Xpqbg23kk8v5v	
+closed	2024-10-22 20:15:29	16.36 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6006598_23372_0_0.cram	file-G8pKQ00JYv1YFpqfJF8K4jyZ	
+closed	2024-10-22 20:15:29	18.26 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6018904_23372_0_0.cram	file-G8pFJ10JYv1zbB5X4Qjf1JQ5	
+closed	2024-10-22 20:15:29	18.34 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6008137_23372_0_0.cram	file-G8py0PQJYv1bpbb1JZ0K9VQz	
+closed	2024-10-22 20:15:28	19.26 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6020238_23372_0_0.cram	file-G8vVqXjJYv1X66XjG7pp5K21	
+closed	2024-10-22 20:15:28	17.33 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6005252_23372_0_0.cram	file-G8b7z9jJYv1zf5GX32Zx23gp	
+closed	2024-10-22 20:15:27	17.57 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6001122_23372_0_0.cram	file-G8gk710JYv1j7YYyPB1YQj52	
+closed	2024-10-22 20:15:27	15.74 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6020256_23372_0_0.cram	file-G83JZb8JYv1Q3Jjf3Bp1JQ2G	
+closed	2024-10-22 20:15:26	18.86 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6005973_23372_0_0.cram	file-G87PzgjJYv1z7B2k4qjY17J8	
+closed	2024-10-22 20:15:26	19.11 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6009812_23372_0_0.cram	file-G87KzVQJYv1vPjb33zP9YYg3	
+closed	2024-10-22 20:15:26	14.95 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6010325_23372_0_0.cram	file-G87YBV8JYv1b6yp2G1Q7xK0p	
+closed	2024-10-22 20:15:25	17.48 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6010212_23372_0_0.cram	file-G87VVkQJYv1jB2pq3zXPFvbY	
+closed	2024-10-22 20:15:25	17.51 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6004384_23372_0_0.cram	file-G87b458JYv1V3fpJG2vqFykz	
+closed	2024-10-22 20:15:25	17.30 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6010014_23372_0_0.cram	file-G8BQ7JQJYv1bjfgq8gyP17QQ	
+closed	2024-10-22 20:14:02	16.54 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6021131_23372_0_0.cram	file-G4XG3gQJYv1ZbK6F8Jz9b3j8	
+closed	2024-10-22 20:14:02	16.31 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6003311_23372_0_0.cram	file-G4FQFfjJYv1X0bzqBpFqPPfj	
+closed	2024-10-22 19:04:27	15.31 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6022808_23372_0_0.cram	file-G4XqJv8JYv1k0J429F5vyBjy	
+closed	2024-10-22 19:04:26	16.44 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016052_23372_0_0.cram	file-G4Y51vQJYv1v06vy9BX4B6q1	
+closed	2024-10-22 19:04:26	16.79 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6011446_23372_0_0.cram	file-G4YVXf0JYv1VZ87x9JxyPBF0	
+closed	2024-10-22 19:04:26	14.78 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6011191_23372_0_0.cram	file-G4YYvP0JYv1jJY8j9XfP6QfF	
+closed	2024-10-22 19:04:25	16.44 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6010720_23372_0_0.cram	file-G4Z7Yx0JYv1Y5fgqPjY0qk55	
+closed	2024-10-22 19:04:25	15.08 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6020658_23372_0_0.cram	file-G4Z6z0jJYv1bbj1q88zg1jZZ	
+closed	2024-10-22 19:04:25	15.55 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013892_23372_0_0.cram	file-G4Z6z40JYv1Q4Z696f9v82Zb	
+closed	2024-10-22 19:04:24	14.89 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6014701_23372_0_0.cram	file-G4b3Z50JYv1Q4Z696f9vBGJ6	
+closed	2024-10-22 19:04:24	15.99 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6007461_23372_0_0.cram	file-G4b2QPQJYv1zpqqv744z90jY	
+closed	2024-10-22 19:04:23	15.55 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6011818_23372_0_0.cram	file-G4fpZ20JYv1zG3P66fkxyZf3	
+closed	2024-10-22 19:04:22	16.45 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6012473_23372_0_0.cram	file-G4fqqx8JYv1QpfJkGj0Gz68v	
+closed	2024-10-22 19:04:21	15.11 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6018423_23372_0_0.cram	file-G49KbZ0JYv1Z3xbJ4YJF8kG6	
+closed	2024-10-22 19:04:21	16.85 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6019262_23372_0_0.cram	file-G49xj2jJYv1fvqZG1Y98Zxg8	
+closed	2024-10-22 19:02:51	16.66 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016709_23372_0_0.cram	file-G4B51X0JYv1y1gp88bx4bX2Q	
+closed	2024-10-22 19:02:51	18.20 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6019135_23372_0_0.cram	file-G4B2658JYv1v0jyxF5xzJ2VK	
+closed	2024-10-22 19:02:50	17.42 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6024163_23372_0_0.cram	file-G4BgKfQJYv1pg7jp6PGYfgkb	
+closed	2024-10-22 19:02:50	18.18 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6003924_23372_0_0.cram	file-G4BxY5jJYv1ZJ6bbFVVBJ0bk	
+closed	2024-10-22 19:02:50	17.23 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6008713_23372_0_0.cram	file-G4BvG60JYv1X46F088pVzgKg	
+closed	2024-10-22 19:02:49	15.94 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6018195_23372_0_0.cram	file-G4F1fyjJYv1yvJQbFf73p1Yv	
+closed	2024-10-22 19:02:49	20.70 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013757_23372_0_0.cram	file-G4GkpyQJYv1ZbZJ3JKPYf4v2	
+closed	2024-10-22 19:02:48	14.93 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6006226_23372_0_0.cram	file-G4Gx7ZjJYv1Yk8x52f4G76Kz	
+closed	2024-10-22 19:02:47	15.49 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6008274_23372_0_0.cram	file-G4K6928JYv1k3kGxJgXKBX4f	
+closed	2024-10-22 19:02:47	17.25 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6012496_23372_0_0.cram	file-G4Kb5BjJYv1qkxy53XgfQ248	
+closed	2024-10-22 19:02:46	15.09 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6014852_23372_0_0.cram	file-G4Kjf80JYv1vGBGfJ4v8PGfG	
+closed	2024-10-22 19:02:46	17.50 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6018985_23372_0_0.cram	file-G4Kgx5jJYv1y6vBY8Bvy52Vf	
+closed	2024-10-22 19:02:46	17.39 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6015642_23372_0_0.cram	file-G4KzFJ0JYv1Y9QPqPGgyK49q	
+closed	2024-10-22 19:02:46	15.09 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6001372_23372_0_0.cram	file-G4P3FVjJYv1pXZG749pGV8pk	
+closed	2024-10-22 19:02:45	15.15 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013590_23372_0_0.cram	file-G4PBjbQJYv1pFqxB3YyV2675	
+closed	2024-10-22 19:02:44	15.09 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6005412_23372_0_0.cram	file-G4PYk50JYv1jQFBB8bYZbb9F	
+closed	2024-10-22 19:01:26	18.77 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6015717_23372_0_0.cram	file-G40p2Z0JYv1kyvpfP0vPb3PQ	
+closed	2024-10-22 19:01:26	17.57 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6021482_23372_0_0.cram	file-G40kBpjJYv1z4Vvx4vF27F7q	
+closed	2024-10-22 19:01:26	16.68 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6018863_23372_0_0.cram	file-G40j5FjJYv1ZvbYk4vvxQqqY	
+closed	2024-10-22 19:01:25	12.85 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6010511_23372_0_0.cram	file-G45x6j8JYv1y8jQZ848fQ4VF	
+closed	2024-10-22 19:01:25	19.23 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6019788_23372_0_0.cram	file-G4126x8JYv1x6KFFGZKYVQy8	
+closed	2024-10-22 19:01:25	13.93 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6019820_23372_0_0.cram	file-G4614QQJYv1b2Z466YVjjk4Z	
+closed	2024-10-22 19:01:24	17.54 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6006042_23372_0_0.cram	file-G46BFy8JYv1yXvXQGJKpkqvJ	
+closed	2024-10-22 19:01:24	15.59 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6007802_23372_0_0.cram	file-G46jp80JYv1QK7KX16kv69f9	
+closed	2024-10-22 19:01:24	16.22 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6011110_23372_0_0.cram	file-G46g5yjJYv1kZ7yQPjYgvQGg	
+closed	2024-10-22 19:01:23	14.96 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6002482_23372_0_0.cram	file-G46zz8jJYv1QpKP5KG977Xv7	
+closed	2024-10-22 19:01:23	17.37 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6022167_23372_0_0.cram	file-G46yGPQJYv1Xv1K2GFVGbZxP	
+closed	2024-10-22 19:01:22	14.05 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6005320_23372_0_0.cram	file-G4875z0JYv1p85qKBy3QBqfJ	
+closed	2024-10-22 19:01:22	13.72 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6012505_23372_0_0.cram	file-G4865k0JYv1jq3Pp5q0qQ2Pv	
+closed	2024-10-22 19:01:22	17.33 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6010205_23372_0_0.cram	file-G4864QjJYv1ffXjBGq33kGx6	
+closed	2024-10-22 19:01:22	18.03 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6022178_23372_0_0.cram	file-G48J7j8JYv1gfXZQ4JQ21j2Z	
+closed	2024-10-22 19:01:22	15.43 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6005678_23372_0_0.cram	file-G48FX0QJYv1xkFy0J7168jpP	
+closed	2024-10-22 19:01:22	13.74 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6011686_23372_0_0.cram	file-G48Bx0QJYv1qX1q2KF01jFKq	
+closed	2024-10-22 19:01:21	18.34 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6001510_23372_0_0.cram	file-G48JgBjJYv1yjf4z66YJ3fx8	
+closed	2024-10-22 19:01:21	18.30 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6001390_23372_0_0.cram	file-G48gpxQJYv1pbFQq0ZyKY2P1	
+closed	2024-10-22 19:01:20	16.64 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6010901_23372_0_0.cram	file-G48yX7QJYv1b54bP0bzg5xx9	
+closed	2024-10-22 19:01:20	19.63 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6003413_23372_0_0.cram	file-G48x2bQJYv1fjJX7GQVJbyx9	
+closed	2024-10-22 19:01:20	15.76 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6024006_23372_0_0.cram	file-G3jpXq8JYv1qpxk47b7G6kpg	
+closed	2024-10-22 19:00:50	27.17 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6024369_23372_0_0.cram	file-Fy34440JkF65kVYQ4xpgPVXJ	
+closed	2024-10-22 19:00:49	18.21 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6022820_23372_0_0.cram	file-Fy328kQJkF6B2K0Q4jB6Fbv4	
+closed	2024-10-22 19:00:49	20.27 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6015078_23372_0_0.cram	file-Fy35q70JkF6KjBYq559bQj6X	
+closed	2024-10-22 19:00:48	17.85 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6001251_23372_0_0.cram	file-Fy32Z70JkF6FBZPG4yx2XVpb	
+closed	2024-10-22 19:00:48	17.34 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6012341_23372_0_0.cram	file-FxQx77QJkF68FF030kj8J0Gg	
+closed	2024-10-22 19:00:47	16.65 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6015013_23372_0_0.cram	file-Fy2g6bjJkF6Gkjj88975x1Fk	
+closed	2024-10-22 19:00:47	16.33 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6011885_23372_0_0.cram	file-FxfGVJ8JkF6PF1f73kB8j6FF	
+closed	2024-10-22 19:00:47	18.68 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6009352_23372_0_0.cram	file-FxQkJZQJkF6G2F900kkkq2VV	
+closed	2024-10-22 19:00:01	17.41 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6010532_23372_0_0.cram	file-G3qKP9QJYv1g844B8gP29p72	
+closed	2024-10-22 19:00:01	20.14 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6005261_23372_0_0.cram	file-G3px94QJYv1Xg1Z2J7VF461x	
+closed	2024-10-22 19:00:00	17.33 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6005457_23372_0_0.cram	file-G3qzqzQJYv1yp6bQ3xgyfYyq	
+closed	2024-10-22 18:59:59	18.18 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6020137_23372_0_0.cram	file-G3vqF3QJYv1b582P3G10zYPv	
+closed	2024-10-22 18:59:59	19.53 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013161_23372_0_0.cram	file-G3x7pb0JYv1x95Y05fBXQQq5	
+closed	2024-10-22 18:59:59	18.39 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6002937_23372_0_0.cram	file-G3x3198JYv1pY48b05Vq1ZpX	
+closed	2024-10-22 18:59:59	19.35 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6006159_23372_0_0.cram	file-G3xYyQQJYv1gV7yzKK03bBFq	
+closed	2024-10-22 18:59:59	17.92 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6005486_23372_0_0.cram	file-G3xYq38JYv1yK8653b08J9pv	
+closed	2024-10-22 18:59:59	20.55 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6014845_23372_0_0.cram	file-G3xVyJQJYv1qf2z13zXBqkGZ	
+closed	2024-10-22 18:59:58	22.02 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6002408_23372_0_0.cram	file-G3xkzYjJYv1q1Q6Q385gf8B3	
+closed	2024-10-22 18:59:56	18.15 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6023985_23372_0_0.cram	file-G403730JYv1g2k3Q628YP41j	
+closed	2024-10-22 18:59:56	16.64 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6004299_23372_0_0.cram	file-G3f7PBQJYv1QjyYj0y3kK160	
+closed	2024-10-22 18:59:55	16.73 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6012430_23372_0_0.cram	file-G3fQX8jJYv1Z79ZPKV3gzyp7	
+closed	2024-10-22 18:59:19	17.43 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6017424_23372_0_0.cram	file-Fy2Zyy8JkF6FykB18YYv13qB	
+closed	2024-10-22 18:59:18	17.98 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6011008_23372_0_0.cram	file-Fy35xFQJkF60jbQ64xYF3zVV	
+closed	2024-10-22 18:59:18	18.01 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6006473_23372_0_0.cram	file-FxV31J0JkF67GV2z7v5Zfb6K	
+closed	2024-10-22 18:59:18	16.98 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6012748_23372_0_0.cram	file-Fy2QQq0JkF6Fyp21Gqxy4Yf1	
+closed	2024-10-22 18:59:17	18.12 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6008019_23372_0_0.cram	file-Fxj3v40JkF6Gbx3425zpJgjq	
+closed	2024-10-22 18:59:16	15.64 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6009247_23372_0_0.cram	file-FxQG7x0JkF68Vzfp3yZQPBXx	
+closed	2024-10-22 18:59:15	20.19 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016453_23372_0_0.cram	file-Fy3X5b8JkF6K8VZv4xFVG98z	
+closed	2024-10-22 18:59:15	18.46 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6018787_23372_0_0.cram	file-Fy33KfjJkF6B8Gqg55B51JGF	
+closed	2024-10-22 18:59:14	23.17 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6014675_23372_0_0.cram	file-Fxgzy2jJkF6Bbbp53q340Gjk	
+closed	2024-10-22 18:59:14	18.03 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6003545_23372_0_0.cram	file-FxgpV8QJkF6PgxFg2pvJ7GB1	
+closed	2024-10-22 18:59:13	19.57 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6000004_23372_0_0.cram	file-FxZq4KQJkF60Y1YBPp6JBQgg	
+closed	2024-10-22 18:59:13	19.90 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6005359_23372_0_0.cram	file-FxVGzXjJkF6BxKfyJYky735X	
+closed	2024-10-22 18:59:13	17.07 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6017436_23372_0_0.cram	file-Fy2fZBQJkF65f32846z1VkFK	
+closed	2024-10-22 18:58:56	20.97 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6012314_23372_0_0.cram	file-G3g5vXQJYv1kJJg388QkV9VQ	
+closed	2024-10-22 18:58:56	19.62 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6000731_23372_0_0.cram	file-G3gPQBQJYv1bFGZP173bzK2f	
+closed	2024-10-22 18:58:56	17.14 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6001871_23372_0_0.cram	file-G3gJbJQJYv1YvY5JJ8y0p8Qx	
+closed	2024-10-22 18:58:56	18.07 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6008165_23372_0_0.cram	file-G3gJ2yQJYv1zBZ0k08XgxGVX	
+closed	2024-10-22 18:58:56	15.29 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6006353_23372_0_0.cram	file-G3gF2jQJYv1V3JgV08P2ggZ8	
+closed	2024-10-22 18:58:55	18.47 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6017393_23372_0_0.cram	file-G41PX9QJYv1V5JBg4Y4VBpyB	
+closed	2024-10-22 18:58:55	18.05 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6021543_23372_0_0.cram	file-G41KJ10JYv1Q6zgg5pz6p16j	
+closed	2024-10-22 18:58:55	18.67 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6002860_23372_0_0.cram	file-G41K2g8JYv1xf3xXFyVV3xv2	
+closed	2024-10-22 18:58:54	17.90 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6015691_23372_0_0.cram	file-G42XxxQJYv1zk48P4JjvjQf0	
+closed	2024-10-22 18:58:54	16.96 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6019475_23372_0_0.cram	file-G42XVG8JYv1QF33j0J3KKX7Q	
+closed	2024-10-22 18:58:54	26.30 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6010037_23372_0_0.cram	file-G42FKP0JYv1kzyp554FJj785	
+closed	2024-10-22 18:58:54	20.54 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6001729_23372_0_0.cram	file-G4495z0JYv1V5JBg4Y4VqXpp	
+closed	2024-10-22 18:58:54	24.34 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6009490_23372_0_0.cram	file-G44BZF8JYv1jjxPKGJ96jFqq	
+closed	2024-10-22 18:58:52	17.05 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6019098_23372_0_0.cram	file-G45JYVQJYv1YFy1qPbjJQ3vg	
+closed	2024-10-22 18:58:52	16.26 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6011862_23372_0_0.cram	file-G45QZy8JYv1vPvJJGG0XyF24	
+closed	2024-10-22 18:58:52	15.73 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016089_23372_0_0.cram	file-G45PYk0JYv1pqX2P82VXpYz2	
+closed	2024-10-22 18:58:52	19.93 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016607_23372_0_0.cram	file-G3P4pvjJYv1fVJ5v6kGYpJGv	
+closed	2024-10-22 18:58:51	16.30 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6007190_23372_0_0.cram	file-G3PGQZ8JYv1jgx406ppxXbjY	
+closed	2024-10-22 18:58:51	18.99 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6014778_23372_0_0.cram	file-G3PPY3jJYv1Z30Vq12ZgX66B	
+closed	2024-10-22 18:57:27	16.41 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6006171_23372_0_0.cram	file-G3XP51QJYv1pb45v7197p2g8	
+closed	2024-10-22 18:57:27	15.00 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013997_23372_0_0.cram	file-G3Xp980JYv1ZZp8y7VKk64Fb	
+closed	2024-10-22 18:57:26	16.69 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6009535_23372_0_0.cram	file-G3Y3148JYv1V1KZZ7QzbqKZ2	
+closed	2024-10-22 18:57:26	20.31 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6017043_23372_0_0.cram	file-G3Yxv0jJYv1pb45v7197zq9x	
+closed	2024-10-22 18:57:26	18.03 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6014966_23372_0_0.cram	file-G3Z8bgjJYv1by56p4yQFZQVV	
+closed	2024-10-22 18:57:25	16.40 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6021198_23372_0_0.cram	file-G3ZvbF0JYv1XjFGK6vgyVfxV	
+closed	2024-10-22 18:57:25	18.82 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013764_23372_0_0.cram	file-G3bgZ0QJYv1zgbfjP94g43g7	
+closed	2024-10-22 18:57:24	21.75 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6012275_23372_0_0.cram	file-G3by740JYv1Z44Qq6pJgQzQB	
+closed	2024-10-22 18:57:24	16.74 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6003716_23372_0_0.cram	file-G3bvVq0JYv1Q54QV6QpB3zbk	
+closed	2024-10-22 18:57:24	19.42 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6023738_23372_0_0.cram	file-G3f4340JYv1pJy3B3Q8k21pz	
+closed	2024-10-22 18:57:24	16.20 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6019741_23372_0_0.cram	file-G3f2F2jJYv1qGpf46Q8yZp7Z	
+closed	2024-10-22 18:57:23	17.40 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6002099_23372_0_0.cram	file-G360K5QJYv1b938kFZp5611J	
+closed	2024-10-22 18:57:23	15.89 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6015897_23372_0_0.cram	file-G36J308JYv1j9xb3KQjBZK5g	
+closed	2024-10-22 18:57:23	18.50 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6023320_23372_0_0.cram	file-G3670p0JYv1ZGXqVB1zv6vfx	
+closed	2024-10-22 18:57:23	20.90 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6000682_23372_0_0.cram	file-G366kZ8JYv1jFzBxGXgYxgfg	
+closed	2024-10-22 18:57:23	24.29 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6024802_23372_0_0.cram	file-G366528JYv1j515YKV6KZbGP	
+closed	2024-10-22 18:57:22	17.97 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6000932_23372_0_0.cram	file-G39fx6QJYv1V8vyP68XVV7g2	
+closed	2024-10-22 18:56:32	17.54 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6007747_23372_0_0.cram	file-Fy9kv7jJkF6JZ9FXKqPQ96p9	
+closed	2024-10-22 18:56:31	16.65 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6001348_23372_0_0.cram	file-Fyb5Py8JkF6B9Z5Z98KkZJGj	
+closed	2024-10-22 18:56:31	17.32 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6003589_23372_0_0.cram	file-Fyb2868JkF69YJPp5qF2BJ1X	
+closed	2024-10-22 18:56:31	15.84 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6001204_23372_0_0.cram	file-FyZ0YZ8JkF684vkQ61bB2PKP	
+closed	2024-10-22 18:56:31	15.20 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6010509_23372_0_0.cram	file-FyYggx8JkF69G7fFBygJGK07	
+closed	2024-10-22 18:56:31	17.19 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6010685_23372_0_0.cram	file-FyZvJjQJkF6JK9QfG424g9Xk	
+closed	2024-10-22 18:56:31	15.80 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6017345_23372_0_0.cram	file-FyVbZZQJkF6GX01j7p39J2G9	
+closed	2024-10-22 18:56:30	14.99 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013096_23372_0_0.cram	file-FyZvykQJkF67fGBFJkXqJ57Y	
+closed	2024-10-22 18:56:30	18.05 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6005570_23372_0_0.cram	file-FyY40y8JkF63PJgP4pjgkkp0	
+closed	2024-10-22 18:56:30	18.23 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6022218_23372_0_0.cram	file-FyXX870JkF6Ky2406qkbkxJj	
+closed	2024-10-22 18:56:17	19.90 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6002832_23372_0_0.cram	file-G3B1f6QJYv1vgQ4Y6VQk91xg	
+closed	2024-10-22 18:56:17	16.49 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6017068_23372_0_0.cram	file-G3B1GqQJYv1qXV0x9XQJpYF9	
+closed	2024-10-22 18:56:17	16.80 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6018710_23372_0_0.cram	file-G3B4Zk0JYv1VpF3G6Gqq2byY	
+closed	2024-10-22 18:56:16	17.07 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6012943_23372_0_0.cram	file-G3BBp58JYv1xjgYJ62vz3FPF	
+closed	2024-10-22 18:56:16	18.01 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6024391_23372_0_0.cram	file-G3BBgj0JYv1VJ4KB0yvy27Fx	
+closed	2024-10-22 18:56:16	19.39 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6004842_23372_0_0.cram	file-G3BGyf8JYv1YYxpK9XvVk1YV	
+closed	2024-10-22 18:56:16	16.79 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6000608_23372_0_0.cram	file-G3Bj210JYv1pKXXB6JKB3V2v	
+closed	2024-10-22 18:56:16	17.37 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6003777_23372_0_0.cram	file-G3BPQXjJYv1QQ2Yq6XkQJyy2	
+closed	2024-10-22 18:56:15	16.87 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016887_23372_0_0.cram	file-G3BxxyQJYv1V0g9G67Vvx7yx	
+closed	2024-10-22 18:56:15	18.30 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016797_23372_0_0.cram	file-G3F48b0JYv1z9jQ8Gf9q1j5G	
+closed	2024-10-22 18:56:14	18.02 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6005949_23372_0_0.cram	file-G3JYzJQJYv1Yf4p6PYy2p54b	
+closed	2024-10-22 18:56:14	16.28 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6006586_23372_0_0.cram	file-G3JX0B8JYv1v3BZ83P1Q2vB5	
+closed	2024-10-22 18:54:55	14.47 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6003818_23372_0_0.cram	file-FyQVV3jJkF691B1B8Z0Vz5KJ	
+closed	2024-10-22 18:54:55	13.06 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6002459_23372_0_0.cram	file-FyYvVpjJkF675GvP2Zb2x1vx	
+closed	2024-10-22 18:54:54	18.23 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6022411_23372_0_0.cram	file-FyFgFv0JkF6236VX0fBV4f73	
+closed	2024-10-22 18:54:53	18.71 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6019770_23372_0_0.cram	file-FyXb43QJkF67fGBFJkXq62fY	
+closed	2024-10-22 18:54:53	16.02 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6015883_23372_0_0.cram	file-FyJ9PkQJkF685j7p4k4BQJXF	
+closed	2024-10-22 18:54:53	22.70 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6019251_23372_0_0.cram	file-FyFyyjQJkF6JJ3BGFvJX3fx7	
+closed	2024-10-22 18:54:53	15.11 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016515_23372_0_0.cram	file-FyFgXG0JkF6JYKkyBZPZ5Y2b	
+closed	2024-10-22 18:54:52	19.81 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6017599_23372_0_0.cram	file-Fy90PBjJkF69yvKGFxGqfp16	
+closed	2024-10-22 18:54:51	18.43 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6019040_23372_0_0.cram	file-FyZyB40JkF6KpP59BJzBvZgg	
+closed	2024-10-22 18:54:51	17.64 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016582_23372_0_0.cram	file-FyZ7P1jJkF6G6z4f7JXyjbvq	
+closed	2024-10-22 18:54:50	16.55 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6012772_23372_0_0.cram	file-FyJQj4jJkF6Pg3pBJ07j716x	
+closed	2024-10-22 18:54:50	12.92 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6021013_23372_0_0.cram	file-Fy8J81jJkF6K95227kbYk1fG	
+closed	2024-10-22 18:53:28	16.66 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6025082_23372_0_0.cram	file-G6Z3GKjJYv1pKKB2B6G7qfxY	
+closed	2024-10-22 18:53:27	19.57 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6004607_23372_0_0.cram	file-G6Z6G0QJYv1YXX8P7FYv5Pgj	
+closed	2024-10-22 18:53:27	16.77 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6011499_23372_0_0.cram	file-G6ZFYX8JYv1ZPyXj56YfyxQk	
+closed	2024-10-22 18:53:26	19.33 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6019753_23372_0_0.cram	file-G6ZQ5qjJYv1XgYJX57zK9V1b	
+closed	2024-10-22 18:53:26	16.87 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6001273_23372_0_0.cram	file-G6ZP9K0JYv1ZqXKGB5VBB8v2	
+closed	2024-10-22 18:53:26	23.73 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6011383_23372_0_0.cram	file-G6Zf168JYv1y8KGbB64b28xB	
+closed	2024-10-22 18:53:22	13.86 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6002157_23372_0_0.cram	file-FyFpQqjJkF63kBzq8Fpzj6Vq	
+closed	2024-10-22 18:53:22	17.37 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6011292_23372_0_0.cram	file-Fy3P18QJkF69bjGpJ3F65GZP	
+closed	2024-10-22 18:53:22	16.87 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6003358_23372_0_0.cram	file-FyJFJFQJkF662Xz25Y9Vz7y2	
+closed	2024-10-22 18:53:22	17.12 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6004810_23372_0_0.cram	file-FyJG1V8JkF68bQP44k0PX2qj	
+closed	2024-10-22 18:53:22	20.03 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6003851_23372_0_0.cram	file-Fy8ZBbjJkF64407Y4gqPXXjJ	
+closed	2024-10-22 18:53:21	16.77 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013049_23372_0_0.cram	file-FyQ9vGQJkF6PBqxz6z9Z6j95	
+closed	2024-10-22 18:53:21	15.61 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013723_23372_0_0.cram	file-FyJXK20JkF68yvXb5y7GfzqG	
+closed	2024-10-22 18:53:21	15.91 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6019574_23372_0_0.cram	file-FyJG5q8JkF66y330GgX02Gxv	
+closed	2024-10-22 18:53:20	11.79 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6004672_23372_0_0.cram	file-FyXkZyjJkF69Fqxv331PkkQx	
+closed	2024-10-22 18:53:20	17.06 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016810_23372_0_0.cram	file-FyVyb10JkF64j33F8PfV8JB5	
+closed	2024-10-22 18:53:20	11.97 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6019510_23372_0_0.cram	file-FyX1Jq8JkF66F5xKG887gXJK	
+closed	2024-10-22 18:53:19	17.69 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6001296_23372_0_0.cram	file-FyB1v68JkF6F78Xg0gG72qKP	
+closed	2024-10-22 18:53:19	20.65 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6021568_23372_0_0.cram	file-FyXzx0jJkF683XX81pppZ76X	
+closed	2024-10-22 18:53:19	15.04 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6007771_23372_0_0.cram	file-FyVk4Q8JkF66xx4VPZyYB9QK	
+closed	2024-10-22 18:53:19	15.04 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6024257_23372_0_0.cram	file-FyVjVGQJkF6F0x039Pxp3Y9b	
+closed	2024-10-22 18:53:17	15.69 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6019616_23372_0_0.cram	file-FyZK9qjJkF6F42Gk2KPBf859	
+closed	2024-10-22 18:53:17	17.71 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6021953_23372_0_0.cram	file-Fy9xfQ8JkF69VgxzFyxFxv1b	
+closed	2024-10-22 18:53:17	20.11 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6010802_23372_0_0.cram	file-Fy8g2zjJkF6059G11K2xk9B3	
+closed	2024-10-22 18:53:16	15.87 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6020024_23372_0_0.cram	file-FyVpbx0JkF6PKQ7g8YPvZKvf	
+closed	2024-10-22 18:53:16	17.40 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6024868_23372_0_0.cram	file-FyYZqkjJkF6BB9fqK3yGX714	
+closed	2024-10-22 18:51:56	14.16 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6011907_23372_0_0.cram	file-FyY5ZfQJkF6J0PKKJx86J6ZQ	
+closed	2024-10-22 18:51:56	14.80 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6005836_23372_0_0.cram	file-FyX9P18JkF6Ky2406qkbjzX6	
+closed	2024-10-22 18:51:56	15.54 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6020876_23372_0_0.cram	file-Fy8jkQjJkF69VV86KyJ15Qq0	
+closed	2024-10-22 18:51:56	19.00 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6021860_23372_0_0.cram	file-FyY1BxjJkF6F6Px51P9G54f8	
+closed	2024-10-22 18:51:56	16.28 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6014767_23372_0_0.cram	file-G6gB1pQJYv1Q14Fb7bZBFvgG	
+closed	2024-10-22 18:51:55	18.97 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6008660_23372_0_0.cram	file-G6gPBg0JYv1YGBPJ1G38pF6J	
+closed	2024-10-22 18:51:55	18.10 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6014364_23372_0_0.cram	file-G6gKq90JYv1Xpzk89vGJ2G1K	
+closed	2024-10-22 18:51:55	19.56 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6004887_23372_0_0.cram	file-G6gKX3QJYv1ZqXKGB5VFJjQ1	
+closed	2024-10-22 18:51:55	18.84 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013806_23372_0_0.cram	file-FyBKPFjJkF608pVg6J0BBjX2	
+closed	2024-10-22 18:51:55	17.91 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6021054_23372_0_0.cram	file-G6gQPp0JYv1XXV131Bpgj433	
+closed	2024-10-22 18:51:54	18.15 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6000841_23372_0_0.cram	file-G6gvqq8JYv1Qjz4Z8vfj5f0g	
+closed	2024-10-22 18:51:54	18.51 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6006600_23372_0_0.cram	file-G6gf060JYv1X1GjYB6y7vqVz	
+closed	2024-10-22 18:51:54	13.05 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6021362_23372_0_0.cram	file-FyZ9P2QJkF636GPk3zX6x9Y1	
+closed	2024-10-22 18:51:54	16.55 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6007107_23372_0_0.cram	file-FyXz27QJkF6BxZ50J7YfBZg3	
+closed	2024-10-22 18:51:53	14.42 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6019227_23372_0_0.cram	file-FyVB3K8JkF64F4z39VZvP7B6	
+closed	2024-10-22 18:51:53	18.82 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6011827_23372_0_0.cram	file-G6jk3bQJYv1b3ffJ4Z5QfXz7	
+closed	2024-10-22 18:51:52	16.92 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6009144_23372_0_0.cram	file-FyVqbB0JkF6FfjGy2b860Z5Z	
+closed	2024-10-22 18:51:52	17.59 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6005787_23372_0_0.cram	file-G6kPvk0JYv1j6Vjx4YkvqJ2f	
+closed	2024-10-22 18:51:52	18.15 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016437_23372_0_0.cram	file-Fy3PyJ0JkF6P0YZy4jVXvg93	
+closed	2024-10-22 18:51:52	16.48 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6005431_23372_0_0.cram	file-G699gkQJYv1qPxpf77QFy9Vq	
+closed	2024-10-22 18:51:52	16.72 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013572_23372_0_0.cram	file-FyY6Y5jJkF6876yqG4fXYkYq	
+closed	2024-10-22 18:51:51	13.88 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6011311_23372_0_0.cram	file-FyXGyPQJkF6Fz8GGJQF6Jq1g	
+closed	2024-10-22 18:51:51	15.25 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6000354_23372_0_0.cram	file-FyX0zB0JkF60467X6Z3ZVY3F	
+closed	2024-10-22 18:51:51	18.35 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6018116_23372_0_0.cram	file-FyZxJV8JkF6JK9QfG424gVY6	
+closed	2024-10-22 18:51:51	15.11 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6020312_23372_0_0.cram	file-G69Q21QJYv1xYZGb575j4Q3Q	
+closed	2024-10-22 18:51:50	15.39 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6009043_23372_0_0.cram	file-G69j8jQJYv1yyB3x7q0xj49V	
+closed	2024-10-22 18:51:50	15.97 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6011454_23372_0_0.cram	file-G6B0q78JYv1Zp15b6qxJXk8Z	
+closed	2024-10-22 18:51:49	16.05 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6024325_23372_0_0.cram	file-G6G7xJQJYv1gbVzg4Y6JVJ9g	
+closed	2024-10-22 18:51:48	18.70 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6018601_23372_0_0.cram	file-G6G3VJ0JYv1vqG4157BJGZ6B	
+closed	2024-10-22 18:51:48	16.89 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6009688_23372_0_0.cram	file-G6Jx8k0JYv1fy8894Z34pKXV	
+closed	2024-10-22 18:50:45	17.82 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6012133_23372_0_0.cram	file-G6KbfYjJYv1qVgyzBzX1y3kz	
+closed	2024-10-22 18:50:45	17.78 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013926_23372_0_0.cram	file-G6KYgFjJYv1g7qVv6y3G0b02	
+closed	2024-10-22 18:50:45	18.98 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6021929_23372_0_0.cram	file-G6P7Zb0JYv1gbVzg4Y6KfzZv	
+closed	2024-10-22 18:50:45	18.32 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6007532_23372_0_0.cram	file-G6Kx610JYv1jbpg25vjBXK98	
+closed	2024-10-22 18:50:44	16.24 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6017448_23372_0_0.cram	file-G6Kqp4QJYv1Qy5q2BqvxX6X0	
+closed	2024-10-22 18:50:44	17.93 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6004406_23372_0_0.cram	file-G6P9XjjJYv1g7qVv6y3GPpxb	
+closed	2024-10-22 18:50:43	15.34 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6017463_23372_0_0.cram	file-G5fGFp0JYv1YQJ4fPXV99gG9	
+closed	2024-10-22 18:50:43	18.50 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6012661_23372_0_0.cram	file-G5fFkGjJYv1gp5YXG97522f4	
+closed	2024-10-22 18:50:42	18.97 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6021832_23372_0_0.cram	file-G5qbZq0JYv1ygGXX26b9p980	
+closed	2024-10-22 18:50:41	19.17 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6001319_23372_0_0.cram	file-G5xJ3j8JYv1q0gv94y93z29k	
+closed	2024-10-22 18:50:40	16.52 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6008518_23372_0_0.cram	file-G61fV4jJYv1Vp1K6J66YzV7Q	
+closed	2024-10-22 18:50:40	16.00 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6012091_23372_0_0.cram	file-G62211QJYv1vyZfbFKZqZGjp	
+closed	2024-10-22 18:50:40	13.53 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013911_23372_0_0.cram	file-G62Gv48JYv1fF24K7PQ3b8JF	
+closed	2024-10-22 18:50:39	17.20 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016213_23372_0_0.cram	file-G62bZp0JYv1qQyQ5GX1x8G1Z	
+closed	2024-10-22 18:50:39	15.76 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6003435_23372_0_0.cram	file-G62PK4QJYv1y4v1428G43zYg	
+closed	2024-10-22 18:50:39	17.23 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6023366_23372_0_0.cram	file-G64pyFQJYv1xfK704K7pQfGk	
+closed	2024-10-22 18:49:13	12.76 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6017220_23372_0_0.cram	file-G67B2y8JYv1Zp8ZG6vQFq4v1	
+closed	2024-10-22 18:49:13	16.92 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6000474_23372_0_0.cram	file-G65393jJYv1zp39g85jf0YPj	
+closed	2024-10-22 18:49:12	14.72 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6008845_23372_0_0.cram	file-G67JYqjJYv1v5zPq7qPyZ4zB	
+closed	2024-10-22 18:49:11	17.06 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6009376_23372_0_0.cram	file-G6898KjJYv1bjj0f77VbgfqK	
+closed	2024-10-22 18:49:10	18.41 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6000243_23372_0_0.cram	file-G68BJ2jJYv1yG6F562Bp63Vf	
+closed	2024-10-22 18:49:10	17.98 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6023807_23372_0_0.cram	file-G59zyF8JYv1v5j783y2V3gf1	
+closed	2024-10-22 18:49:10	17.91 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6018541_23372_0_0.cram	file-G59QXkjJYv1bQGzj4vVP4Gvy	
+closed	2024-10-22 18:49:08	26.79 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6022928_23372_0_0.cram	file-G5bX2kjJYv1Y0pFXK9f99Pb8	
+closed	2024-10-22 18:49:08	21.56 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013030_23372_0_0.cram	file-G5bgq8QJYv1q8fjjFjzV20QY	
+closed	2024-10-22 18:49:08	18.43 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6019808_23372_0_0.cram	file-G54yxf8JYv1kGJFY4p7x1XJ8	
+closed	2024-10-22 18:49:08	18.20 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6023756_23372_0_0.cram	file-G54kK60JYv1QQZkV1J2yBz79	
+closed	2024-10-22 18:49:07	16.73 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6014658_23372_0_0.cram	file-G49QK5jJYv1zPxgX92xXPybJ	
+closed	2024-10-22 18:49:06	13.63 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6006314_23372_0_0.cram	file-G4KvB50JYv1kJV3461jkXkJQ	
+closed	2024-10-22 18:49:06	14.49 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6017407_23372_0_0.cram	file-G4GvYzQJYv1z0vggKkJX95XB	
+closed	2024-10-22 18:49:06	17.68 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6022098_23372_0_0.cram	file-G4930b8JYv1pKFQ7PKG508Zx	
+closed	2024-10-22 18:49:06	14.47 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6010461_23372_0_0.cram	file-G48KV1jJYv1bjVZ3Fv3V0bbV	
+closed	2024-10-22 18:43:49	18.24 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6024476_23372_0_0.cram	file-FykVZpjJkF6KQp2zGQXfQjKQ	
+closed	2024-10-22 18:43:49	18.09 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6005116_23372_0_0.cram	file-FyqpgG8JkF61P350PzYQgqQy	
+closed	2024-10-22 18:43:49	18.39 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013694_23372_0_0.cram	file-FyqgZ3QJkF67q3GQ0FJgY235	
+closed	2024-10-22 18:43:48	19.09 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6015674_23372_0_0.cram	file-FxVZ9Y0JkF60jQ8Z19g5Jf96	
+closed	2024-10-22 18:43:48	17.95 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6012790_23372_0_0.cram	file-FykbB1QJkF681KB2GjpbbVqz	
+closed	2024-10-22 18:42:23	13.38 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016619_23372_0_0.cram	file-FyqxY50JkF66fXzP3286VF4b	
+closed	2024-10-22 18:42:23	15.63 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6004547_23372_0_0.cram	file-FyFygFjJkF67qPJq1Kppypyg	
+closed	2024-10-22 18:42:23	15.44 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6012003_23372_0_0.cram	file-Fyy1y9jJkF61P9jq32VfFFzz	
+closed	2024-10-22 18:42:23	19.73 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6004775_23372_0_0.cram	file-FyyqJqjJkF647fjBPXQj9jqb	
+closed	2024-10-22 18:42:23	16.04 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6019230_23372_0_0.cram	file-FyyvGvjJkF6BKZvjPYP1v9K4	
+closed	2024-10-22 18:42:22	17.26 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6024720_23372_0_0.cram	file-FyFkKG0JkF608pVg6J0BJxfP	
+closed	2024-10-22 18:42:20	17.30 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6006661_23372_0_0.cram	file-Fz04qQjJkF6911b22v6vP50y	
+closed	2024-10-22 18:42:20	17.50 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6014518_23372_0_0.cram	file-Fyyfzv8JkF61bj4BFF8b37Zj	
+closed	2024-10-22 18:42:20	20.13 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6001040_23372_0_0.cram	file-FyxPkjjJkF6Ky2K18256yjGv	
+closed	2024-10-22 18:42:19	13.67 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6008596_23372_0_0.cram	file-FyyXX9jJkF65YJ63157Jpv0F	
+closed	2024-10-22 18:42:19	18.32 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6003499_23372_0_0.cram	file-FxvXvjjJkF680xGF5vXYVYz2	
+closed	2024-10-22 18:42:18	12.98 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6023680_23372_0_0.cram	file-Fyv39K8JkF6Jp6vqF2v4bZZF	
+closed	2024-10-22 18:42:18	25.64 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6019859_23372_0_0.cram	file-Fz53Fv8JkF60g8Jz5Zvp3j2Y	
+closed	2024-10-22 18:42:18	19.98 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6007163_23372_0_0.cram	file-Fyyk07jJkF68xFYG15J3yx46	
+closed	2024-10-22 18:42:17	16.79 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6009215_23372_0_0.cram	file-FypQ1x8JkF6Py0gj3v8y8zFj	
+closed	2024-10-22 18:42:17	18.61 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6012801_23372_0_0.cram	file-Fykpx20JkF681KB2GjpbbzPJ	
+closed	2024-10-22 18:42:17	19.03 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016803_23372_0_0.cram	file-Fyv2BGQJkF625xkv798GyJJf	
+closed	2024-10-22 18:40:54	16.51 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6018252_23372_0_0.cram	file-FyJ6j9QJkF6J9fkv55B1VxJQ	
+closed	2024-10-22 18:40:53	16.06 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6020915_23372_0_0.cram	file-Fyv3PzQJkF6Fxk0F71vZj0k5	
+closed	2024-10-22 18:40:52	23.05 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6006430_23372_0_0.cram	file-Fy9xj5jJkF6JKVQZFqxqz2K0	
+closed	2024-10-22 18:40:51	15.95 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6012628_23372_0_0.cram	file-Fz50428JkF6G9B8bJXK0YvV8	
+closed	2024-10-22 18:40:51	16.38 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6006880_23372_0_0.cram	file-Fxgvy38JkF6BBQYv2xFJ931k	
+closed	2024-10-22 18:40:51	13.12 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6000073_23372_0_0.cram	file-FyQfBbjJkF69vQ1J990PBK6q	
+closed	2024-10-22 18:40:50	20.07 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016520_23372_0_0.cram	file-Fypbb0QJkF6P4J2z4J4748KK	
+closed	2024-10-22 18:40:50	16.87 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6010884_23372_0_0.cram	file-FyZJZ68JkF6B9Z5Z98KkVbkb	
+closed	2024-10-22 18:40:50	15.42 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016566_23372_0_0.cram	file-FyyGj80JkF618gVpPY37GVbJ	
+closed	2024-10-22 18:40:50	14.56 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6008778_23372_0_0.cram	file-FyXzpVjJkF69Fqxv331PpVg7	
+closed	2024-10-22 18:40:50	11.41 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6007298_23372_0_0.cram	file-FyvGXQjJkF6Kz9VbPyVYQbYy	
+closed	2024-10-22 18:40:48	19.41 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6008305_23372_0_0.cram	file-FxvbK90JkF617Gvp99FQK5xZ	
+closed	2024-10-22 18:39:29	31.09 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6023026_23372_0_0.cram	file-Fz03V70JkF66yFfy717yyjx8	
+closed	2024-10-22 18:39:29	12.70 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6006854_23372_0_0.cram	file-FyV8q7jJkF69k1q7BJ2qXGv2	
+closed	2024-10-22 18:39:29	15.28 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6012329_23372_0_0.cram	file-Fyz4388JkF60ZJ025VjV1BJG	
+closed	2024-10-22 18:39:28	18.92 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6018308_23372_0_0.cram	file-Fyxf45jJkF637VZBPVjY8YFV	
+closed	2024-10-22 18:39:28	19.20 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6024526_23372_0_0.cram	file-FyqqK70JkF63yG47PJXB3qZy	
+closed	2024-10-22 18:39:28	17.66 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6011955_23372_0_0.cram	file-Fz0PB88JkF6FPBfp5jYQYv2v	
+closed	2024-10-22 18:39:28	17.75 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6006260_23372_0_0.cram	file-FyxpJJjJkF66fXzP3286fbYZ	
+closed	2024-10-22 18:39:28	16.31 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6005890_23372_0_0.cram	file-FyvyByQJkF64kGzK4KQg8z03	
+closed	2024-10-22 18:16:30	18.49 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6003174_23372_0_0.cram	file-G2q8jf8JkF61fF1X6YZKXbYY	
+closed	2024-10-22 18:14:56	20.74 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6023333_23372_0_0.cram	file-G2x1FxjJkF6PvJfpBB2y63fk	
+closed	2024-10-22 18:14:56	17.45 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6020504_23372_0_0.cram	file-G2vzv2QJkF6FBGZQ1VBVXy4X	
+closed	2024-10-22 18:13:57	25.80 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6017352_23372_0_0.cram	file-G2fgXv0JkF6JfyPkJqF7q3YZ	
+closed	2024-10-22 18:03:22	12.81 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6000572_23372_0_0.cram	file-G2P4Jj0JkF6BKK2pFGK57qYX	
+closed	2024-10-22 18:03:21	15.54 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016571_23372_0_0.cram	file-G2P9JgQJkF60Xqq0B28kk7zy	
+closed	2024-10-22 18:02:02	14.89 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6009749_23372_0_0.cram	file-G2PP0P8JkF6FBYQJP7XbfjxF	
+closed	2024-10-22 18:02:01	15.77 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6005009_23372_0_0.cram	file-G2Pf808JkF66xqyV8Q22KKJQ	
+closed	2024-10-22 18:01:57	16.80 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6025103_23372_0_0.cram	file-G2VPb58JkF617qx7FQY1YPQ9	
+closed	2024-10-22 18:01:05	16.11 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6018440_23372_0_0.cram	file-G2VZgFjJkF6GKJPjKVqy7KFV	
+closed	2024-10-22 18:01:03	14.84 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6002897_23372_0_0.cram	file-G2Vgzy0JkF65Xqvg86KB1G65	
+closed	2024-10-22 18:01:01	18.72 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6023228_23372_0_0.cram	file-G2VzpF8JkF6172xZJ63k938p	
+closed	2024-10-22 17:58:45	15.05 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6004825_23372_0_0.cram	file-G22bqxjJkF6B5YBX214q6j6q	
+closed	2024-10-22 17:58:43	13.47 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6015290_23372_0_0.cram	file-G235g9jJkF63b29p4J7K068K	
+closed	2024-10-22 17:58:43	15.05 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6004520_23372_0_0.cram	file-G238fx8JkF67F7fk4jg3Q93g	
+closed	2024-10-22 17:58:43	16.02 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6022023_23372_0_0.cram	file-G236fjjJkF62x6p69B1J3Ff2	
+closed	2024-10-22 17:58:42	15.38 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6006038_23372_0_0.cram	file-G23K6XQJkF61QK7q95zFKpxf	
+closed	2024-10-22 17:57:32	17.16 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6017294_23372_0_0.cram	file-G56ZY1jJYv1j714F4qqxvJ29	
+closed	2024-10-22 17:57:32	19.57 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013474_23372_0_0.cram	file-G55zq28JYv1x31Pk4qyJxzKb	
+closed	2024-10-22 17:57:31	17.41 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6018872_23372_0_0.cram	file-G5771b0JYv1xV9pj4qg49VGJ	
+closed	2024-10-22 17:57:31	19.47 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6009259_23372_0_0.cram	file-G58xG9QJYv1yXQvb4pB9KKVY	
+closed	2024-10-22 17:57:31	21.39 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013507_23372_0_0.cram	file-G57kpv8JYv1y1bVx4yjk4J9q	
+closed	2024-10-22 17:57:31	22.72 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6001961_23372_0_0.cram	file-G5955xQJYv1j8q214q0vxgBV	
+closed	2024-10-22 17:57:20	16.24 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6007029_23372_0_0.cram	file-G23x8f8JkF6B1xj85K1pBY69	
+closed	2024-10-22 17:57:20	16.20 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6019882_23372_0_0.cram	file-G24K620JkF63kB5kFq7bB461	
+closed	2024-10-22 17:57:19	15.75 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6018506_23372_0_0.cram	file-G24B9F0JkF69PJGF4k12zy1k	
+closed	2024-10-22 17:57:19	15.53 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6008398_23372_0_0.cram	file-G24781QJkF609Kj5FYKz54FQ	
+closed	2024-10-22 17:57:19	16.54 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6015131_23372_0_0.cram	file-G24y6y0JkF6PPV2j3kv1bbY0	
+closed	2024-10-22 17:57:15	16.38 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6020305_23372_0_0.cram	file-G26XXq8JkF697GQvKpZ7F104	
+closed	2024-10-22 17:57:15	17.37 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6004201_23372_0_0.cram	file-G28J60jJkF6410zVBgK8kj02	
+closed	2024-10-22 17:57:15	17.29 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6004619_23372_0_0.cram	file-G28GJq0JkF6FqBVg6x4q363y	
+closed	2024-10-22 17:57:15	17.78 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6015550_23372_0_0.cram	file-G28Fv7jJkF61P3F90KGKzPV0	
+closed	2024-10-22 17:56:02	18.40 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6011534_23372_0_0.cram	file-G5Y8YBjJYv1qZjj5G7pFBF7X	
+closed	2024-10-22 17:56:02	21.30 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6005234_23372_0_0.cram	file-G5Y6jzjJYv1Qbj9FG8709xqy	
+closed	2024-10-22 17:56:01	18.42 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6011936_23372_0_0.cram	file-G5ZJ6B0JYv1vzbQ8F5P48zPV	
+closed	2024-10-22 17:56:01	17.59 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6017910_23372_0_0.cram	file-G5ZGBbQJYv1VYZ845V0YzkG3	
+closed	2024-10-22 17:56:01	19.12 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6009704_23372_0_0.cram	file-G5ZBF40JYv1Qq77y4xBJFFGy	
+closed	2024-10-22 17:56:01	17.87 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016663_23372_0_0.cram	file-G5ZBGpQJYv1fY4Y84qpygJP0	
+closed	2024-10-22 17:56:00	19.74 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6000615_23372_0_0.cram	file-G5ZKPV8JYv1f0FqxG8JbXJ7F	
+closed	2024-10-22 17:56:00	18.61 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6006133_23372_0_0.cram	file-G5bffG8JYv1zk3GJFgpF5qyQ	
+closed	2024-10-22 17:56:00	17.97 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6020495_23372_0_0.cram	file-G5bYkjjJYv1vG9z0GBk3b1Q8	
+closed	2024-10-22 17:56:00	19.96 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013403_23372_0_0.cram	file-G5bXvZjJYv1kF53QFkKq94j8	
+closed	2024-10-22 17:56:00	18.93 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6004465_23372_0_0.cram	file-G5bqbvQJYv1gkVpjGZzPy597	
+closed	2024-10-22 17:56:00	18.50 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6021539_23372_0_0.cram	file-G5bj038JYv1pFP6YFV12Pv00	
+closed	2024-10-22 17:56:00	20.73 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016775_23372_0_0.cram	file-G5bzvj0JYv1xKGJxGBX655Z6	
+closed	2024-10-22 17:56:00	18.49 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6004377_23372_0_0.cram	file-G5bzZbQJYv1j1862J7XBqp9V	
+closed	2024-10-22 17:55:59	14.07 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6000563_23372_0_0.cram	file-G512p48JYv1vJjKv4gqG1FqF	
+closed	2024-10-22 17:55:59	15.50 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013243_23372_0_0.cram	file-G518ZB0JYv1bkQpq4y6gXzg8	
+closed	2024-10-22 17:55:58	16.10 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6006462_23372_0_0.cram	file-G522Gq0JYv1XgxKq9YZj4BQk	
+closed	2024-10-22 17:55:57	18.93 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6004149_23372_0_0.cram	file-G52VQPjJYv1gf15f4gfg0KKf	
+closed	2024-10-22 17:55:57	17.07 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6007708_23372_0_0.cram	file-G54KjG0JYv1Z4gJ34v6yz90V	
+closed	2024-10-22 17:55:57	18.27 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6008893_23372_0_0.cram	file-G54FZG8JYv1pxVj14p0350Y3	
+closed	2024-10-22 17:55:41	17.65 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6008852_23372_0_0.cram	file-G28XXp0JkF64bv6BKvyVJpkb	
+closed	2024-10-22 17:55:41	17.18 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6023774_23372_0_0.cram	file-G28Vq78JkF68j757BPZjGvq3	
+closed	2024-10-22 17:55:39	16.88 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6003422_23372_0_0.cram	file-G28qq6jJkF6PbKkYK8zJbxfX	
+closed	2024-10-22 17:55:38	16.65 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6003047_23372_0_0.cram	file-G29fQ0QJkF6FY2Zf41Yqj6g3	
+closed	2024-10-22 17:55:38	15.93 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6022976_23372_0_0.cram	file-G29f490JkF69QQBz428Bk7bz	
+closed	2024-10-22 17:55:36	17.75 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6024041_23372_0_0.cram	file-G29zgF0JkF69BF1z4252p550	
+closed	2024-10-22 17:55:36	17.79 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6021396_23372_0_0.cram	file-G2B242jJkF673XkZ93Zb1YP1	
+closed	2024-10-22 17:55:03	18.05 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6000295_23372_0_0.cram	file-G54bx10JYv1pxVj14p03p6gb	
+closed	2024-10-22 17:55:03	19.14 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6011576_23372_0_0.cram	file-G54q6gQJYv1Y8QbxKyGj3xgB	
+closed	2024-10-22 17:55:03	15.30 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6001952_23372_0_0.cram	file-G54v3PQJYv1QGpv64z5xKBfk	
+closed	2024-10-22 17:55:03	16.70 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6002080_23372_0_0.cram	file-G54qyYQJYv1p780b4pk9zV45	
+closed	2024-10-22 17:55:02	20.00 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016957_23372_0_0.cram	file-G556290JYv1gvvp43xvqVx60	
+closed	2024-10-22 17:55:02	16.86 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6017039_23372_0_0.cram	file-G555jFjJYv1pZ7kg4F0b7j2z	
+closed	2024-10-22 17:55:02	18.49 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6008754_23372_0_0.cram	file-G555840JYv1x6Vq268fJKkvZ	
+closed	2024-10-22 17:55:02	20.78 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6007092_23372_0_0.cram	file-G5557v0JYv1x6zK2K8bF5Pgv	
+closed	2024-10-22 17:55:02	21.58 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6011229_23372_0_0.cram	file-G5594BjJYv1zFZ6K4j3x69Bz	
+closed	2024-10-22 17:55:02	20.07 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016368_23372_0_0.cram	file-G55BXFjJYv1zjfq24pJ2zFgQ	
+closed	2024-10-22 17:55:01	19.52 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6017271_23372_0_0.cram	file-G55JB4QJYv1zjfq24pJ2zV4b	
+closed	2024-10-22 17:55:01	21.44 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6012916_23372_0_0.cram	file-G55GVPjJYv1xg25y4y5KBqbJ	
+closed	2024-10-22 17:55:01	18.72 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013487_23372_0_0.cram	file-G55Z1qQJYv1zZFgX4zb0xGvz	
+closed	2024-10-22 17:55:01	18.38 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6000216_23372_0_0.cram	file-G55Y1JjJYv1q641b4z3k4Vy4	
+closed	2024-10-22 17:55:01	17.44 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6009183_23372_0_0.cram	file-G55XqK0JYv1X8KZk4vpg82P4	
+closed	2024-10-22 17:55:01	17.35 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6010041_23372_0_0.cram	file-G55V66jJYv1xJFkv4jbzJpjj	
+closed	2024-10-22 17:55:01	17.03 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016869_23372_0_0.cram	file-G55QFqQJYv1qQjF64xxq6Gy8	
+closed	2024-10-22 17:55:01	16.87 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6004246_23372_0_0.cram	file-G4j46xjJYv1ZxQvJ4VF5v3YY	
+closed	2024-10-22 17:55:01	11.95 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6011623_23372_0_0.cram	file-G4j70gjJYv1XB6FB4g5Kp9G2	
+closed	2024-10-22 17:55:00	17.26 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013983_23372_0_0.cram	file-G4jQ680JYv1XYfjg4fG80QyJ	
+closed	2024-10-22 17:55:00	16.86 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6001497_23372_0_0.cram	file-G4jPQfjJYv1zbyxJ4fGbZFBy	
+closed	2024-10-22 17:54:59	15.95 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6024172_23372_0_0.cram	file-G4jbxFjJYv1Qk9yy4f6z8Gb7	
+closed	2024-10-22 17:54:58	15.05 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6009718_23372_0_0.cram	file-G4jqzy0JYv1Vxbg04kB0yfQP	
+closed	2024-10-22 17:54:58	14.39 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6011963_23372_0_0.cram	file-G4jqj3jJYv1ZxFxz4fqQ6599	
+closed	2024-10-22 17:54:58	16.04 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6002728_23372_0_0.cram	file-G4k03pjJYv1XYfjg4fG8300G	
+closed	2024-10-22 17:54:58	17.47 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6009751_23372_0_0.cram	file-G4k4ky0JYv1pX5Y14fb0bPbb	
+closed	2024-10-22 17:54:57	16.49 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6021140_23372_0_0.cram	file-G4kY3b8JYv1x5kV04g2k9yQp	
+closed	2024-10-22 17:54:57	16.47 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6011047_23372_0_0.cram	file-G4kXqx0JYv1yv4x34f7V38fq	
+closed	2024-10-22 17:54:57	22.31 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6006370_23372_0_0.cram	file-G4kQx0jJYv1Z8K174fqK17yY	
+closed	2024-10-22 17:54:42	19.90 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6010839_23372_0_0.cram	file-G2BJzv0JkF67Zz7Y0zBYQk1G	
+closed	2024-10-22 17:54:41	19.09 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6015914_23372_0_0.cram	file-G2FBk4QJkF63YYQb41qfK6Yj	
+closed	2024-10-22 17:54:41	20.09 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6006921_23372_0_0.cram	file-G2FGkBjJkF6J17yg41p5zyXV	
+closed	2024-10-22 17:54:41	18.23 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6023506_23372_0_0.cram	file-G2FFPk0JkF6KZGpf425zVQxx	
+closed	2024-10-22 17:54:41	19.59 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6020398_23372_0_0.cram	file-G2FPyX0JkF6KZK6PKV5j2P3j	
+closed	2024-10-22 17:54:39	20.14 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6008966_23372_0_0.cram	file-G2Fk0J0JkF6696qY41ybf46P	
+closed	2024-10-22 17:54:38	18.76 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6007124_23372_0_0.cram	file-G2G0B38JkF69j8K71BZ2jXPB	
+closed	2024-10-22 17:53:47	17.65 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6018102_23372_0_0.cram	file-G4vQVG0JYv1qvVvJ4bg85XZb	
+closed	2024-10-22 17:53:47	16.46 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6003612_23372_0_0.cram	file-G4vPZj0JYv1qvVvJ4bg85P8x	
+closed	2024-10-22 17:53:47	16.46 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013829_23372_0_0.cram	file-G4vbBVjJYv1XqXpX4b7J1Bj0	
+closed	2024-10-22 17:53:46	19.05 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013944_23372_0_0.cram	file-G4vk5v0JYv1X1PJk4ZPV20qB	
+closed	2024-10-22 17:53:44	18.93 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6018514_23372_0_0.cram	file-G5030K0JYv1z4x26J05xZKJB	
+closed	2024-10-22 17:53:44	20.27 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6012846_23372_0_0.cram	file-G501788JYv1jY4v8BXX686qP	
+closed	2024-10-22 17:53:44	15.84 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6024452_23372_0_0.cram	file-G50Kp2QJYv1kjPz9K4XyKyjZ	
+closed	2024-10-22 17:53:44	14.75 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6024843_23372_0_0.cram	file-G50YZf0JYv1x8gg34qpbK3yB	
+closed	2024-10-22 17:53:44	16.25 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016760_23372_0_0.cram	file-G4VybgQJYv1XG4Gj0JYVgk0f	
+closed	2024-10-22 17:53:43	19.51 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6016104_23372_0_0.cram	file-G4X0F48JYv1x0V0X6YJbVg9X	
+closed	2024-10-22 17:53:43	16.49 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013322_23372_0_0.cram	file-G4VzF60JYv1x0V0X6YJbVZPb	
+closed	2024-10-22 17:53:43	17.61 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6014861_23372_0_0.cram	file-G4X6Kv8JYv1zkzfFK2BKPZqb	
+closed	2024-10-22 17:53:43	18.80 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6012813_23372_0_0.cram	file-G4X44q0JYv1qf2Y4GBg7660B	
+closed	2024-10-22 17:53:42	17.85 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013548_23372_0_0.cram	file-G4XFp8jJYv1ygVzb69JkY9Kj	
+closed	2024-10-22 17:53:42	15.35 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6004162_23372_0_0.cram	file-G4XQf88JYv1yx76BJBJZx2f6	
+closed	2024-10-22 17:53:36	22.27 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6001411_23372_0_0.cram	file-G2G480QJkF6B9VzB41fXQVX2	
+closed	2024-10-22 17:53:36	21.25 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6003948_23372_0_0.cram	file-G2G3BP0JkF6ByqgV555ZgpXj	
+closed	2024-10-22 17:53:36	18.66 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6017823_23372_0_0.cram	file-G2GfGYjJkF6J1xGbPk9Gf2bV	
+closed	2024-10-22 17:53:34	20.31 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6009785_23372_0_0.cram	file-G2JQ4B0JkF670ZKj56ZZf2y2	
+closed	2024-10-22 17:53:33	21.03 GB	/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]/60/6013367_23372_0_0.cram	file-G2K17BQJkF612bgX5XJvf6v6	

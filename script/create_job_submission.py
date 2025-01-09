@@ -51,13 +51,13 @@ for batch_number in range(number_of_batch):
         input_number+=1
         if input_number == sample_number:
             break
-
+    # /app/GRCh38_full_analysis_set_plus_decoy_hla.fa is in my docker
     print('dx run app-swiss-army-knife \
     --instance-type mem3_ssd3_x4 \
     -iimage_file="dockers/Gauchian.tar.xz" \
     -icmd="gauchian -m {ID_file2} -g 38 -o {out} -p gba_{prefix}_{batch_number} --reference /app/GRCh38_full_analysis_set_plus_decoy_hla.fa" \
     --brief \
-    --project "project-GYpQ7KQJb3qV67g26PBqjgf6" \
+    --project "project-GvFxJ08J95KXx97XFz8g2X2g" \
     --priority low \
     -y \
     -iin="{ID_file}" \

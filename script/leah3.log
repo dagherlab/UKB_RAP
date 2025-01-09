@@ -1,0 +1,48 @@
+loading packages
+all the genes have been identified in gencode, you are good
+the results bed file
+          chr      start        end  gene
+3365469  chrX   77910739   78129295  PGK1
+3370505  chrX  101393273  101408012   GLA
+3411030  chrX  154517825  154547572  G6PD
+confirm the bed file is ok
+continue?(y/n)
+X 77910739 78129295 PGK1
+X 101393273 101408012 GLA
+X 154517825 154547572 G6PD
+confirm the batch file is ok
+continue?(y/n)
+ID                                file-GxzQJF0J95KgJ2JyvVKxb3JY
+Class                             file
+Project                           project-GvFxJ08J95KXx97XFz8g2X2g
+Folder                            /temp
+Name                              leah3.GRCh38.bed
+State                             closing
+Visibility                        visible
+Types                             -
+Properties                        -
+Tags                              -
+Outgoing links                    -
+Created                           Wed Jan  8 18:13:48 2025
+Created by                        liulang
+Last modified                     Wed Jan  8 18:13:49 2025
+Media type                        
+archivalState                     "live"
+cloudAccount                      "cloudaccount-dnanexus"
+job-GxzQJFjJ95KQgPK0F16Kxgv0
+job-GxzQJG8J95KxQF0z49447636
+job-GxzQJGQJ95KQq51q7f5zB1BB
+job-GxzQJJ0J95KgJ2JyvVKxb3Q2
+job-GxzQJJQJ95KzGKzqGPPPKZFY
+job-GxzQJJjJ95KyBXb90x7KZzBv
+job-GxzQJK8J95KgvFP4FJGGqFyZ
+job-GxzQJKjJ95KqfVVxZBY0zpX8
+job-GxzQJP0J95KZXgPp2K4XP0pK
+job-GxzQJPQJ95Kq0JypG46BFjX1
+job-GxzQJQ0J95KQ65fZQPkpb3q5
+job-GxzQJQQJ95KgvFP4FJGGqFyf
+job-GxzQJQjJ95KQz0VpzbQv5F9B
+job-GxzQJV8J95KzGKzqGPPPKZFb
+job-GxzQJVjJ95KV1xk178Bzjy22
+job-GxzQJX8J95KvPfB35zQ1VvX9
+job-GxzQJXQJ95KpBFx17B1xxxP2

@@ -1,21 +1,30 @@
 # WHAT I did here
 # get IDs we are gonna analyze
 # generate commands for these batches
+## this is for lydia's project
 # # set up 
-# cut -d"," -f2 ../GBA_Gauchian/UKB_IDs_with_t1.csv|tail -n +2 >  
+# cut -d"," -f2 ../GBA_Gauchian/UKB_IDs_with_t1.csv|tail -n +2 > ../GBA_Gauchian/UKB_ID.txt 
 # ## select a group of test IDs
 # grep "^10" ../GBA_Gauchian/UKB_ID.txt |head -n 10 > test_ID10.txt
+## previous ../GBA_Gauchian/ is renamed to ../GBA_Gauchian_lydia/
+## this is for cem's project
+# his sample is cem_152_samples.txt
+
 export PATH=$PATH:/home/liulang/.local/bin
 module load StdEnv/2020 python/3.8.10
 rm submission_command.txt
 # # Loop through unique two-digit prefixes
-input_file=../GBA_Gauchian/UKB_ID.txt
+# input_file=../GBA_Gauchian/UKB_ID.txt
+input_file=cem_152_samples.txt
+mkdir -p ../GBA_Gauchian
 awk '{print substr($0, 1, 2)}' "$input_file" | sort -u | while read prefix; do
     # Create files named IDXX.txt based on the prefix
     if [ ! -f ../GBA_Gauchian/tmp_${prefix}.txt ];then
         grep "^$prefix" "$input_file" > "../GBA_Gauchian/UKB_ID${prefix}.txt"
-        dx find data --path "/Bulk/Whole genome sequences/Whole genome CRAM files/${prefix}/" --name "*.cram" --delim > ../GBA_Gauchian/UKBRAP_${prefix}.txt
-        grep -f ../GBA_Gauchian/UKB_ID${prefix}.txt ../GBA_Gauchian/UKBRAP_${prefix}.txt | cut -f4 | sed 's|.*/||' > ../GBA_Gauchian/manifest_${prefix}.txt
+        # dragen and gatk, which one?
+        dx find data --path "/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]//${prefix}/" --name "*.cram" --delim > ../GBA_Gauchian/UKBRAP_${prefix}.txt # IDs available on UKB RAP
+        # dx find data --path "/Bulk/DRAGEN WGS/Whole genome CRAM files (DRAGEN) [500k release]//${prefix}/" --name "*.cram" --delim > ../GBA_Gauchian/UKBRAP_${prefix}.txt # IDs available on UKB RAP
+        grep -f ../GBA_Gauchian/UKB_ID${prefix}.txt ../GBA_Gauchian/UKBRAP_${prefix}.txt | cut -f4 | sed 's|.*/||' > ../GBA_Gauchian/manifest_${prefix}.txt # OVERLAP
         grep -f ../GBA_Gauchian/UKB_ID${prefix}.txt ../GBA_Gauchian/UKBRAP_${prefix}.txt > ../GBA_Gauchian/tmp_${prefix}.txt
         echo "There are $(wc -l < ../GBA_Gauchian/UKB_ID${prefix}.txt) samples we want to analyze."
         echo "finally there are $(wc -l < ../GBA_Gauchian/manifest_${prefix}.txt) samples found in RAP"
@@ -23,107 +32,109 @@ awk '{print substr($0, 1, 2)}' "$input_file" | sort -u | while read prefix; do
     python create_job_submission.py ../GBA_Gauchian/tmp_${prefix}.txt 100 ${prefix} >> submission_command.txt
 done
 ## uncomment this upload manifest files
+# dx mkdir -p IDs/
 # dx upload ../GBA_Gauchian/manifest_* --path IDs/
 
-# There are 1001 samples we want to analyze.
-# finally there are 439 samples found in RAP
-# There are 925 samples we want to analyze.
-# finally there are 406 samples found in RAP
-# There are 918 samples we want to analyze.
-# finally there are 412 samples found in RAP
-# There are 937 samples we want to analyze.
-# finally there are 468 samples found in RAP
-# There are 863 samples we want to analyze.
-# finally there are 387 samples found in RAP
-# There are 942 samples we want to analyze.
-# finally there are 431 samples found in RAP
-# There are 916 samples we want to analyze.
-# finally there are 428 samples found in RAP
-# There are 907 samples we want to analyze.
-# finally there are 392 samples found in RAP
-# There are 875 samples we want to analyze.
-# finally there are 399 samples found in RAP
-# There are 895 samples we want to analyze.
-# finally there are 416 samples found in RAP
-# There are 937 samples we want to analyze.
-# finally there are 443 samples found in RAP
-# There are 934 samples we want to analyze.
-# finally there are 437 samples found in RAP
-# There are 925 samples we want to analyze.
-# finally there are 444 samples found in RAP
-# There are 965 samples we want to analyze.
-# finally there are 459 samples found in RAP
-# There are 943 samples we want to analyze.
-# finally there are 439 samples found in RAP
-# There are 901 samples we want to analyze.
-# finally there are 428 samples found in RAP
-# There are 898 samples we want to analyze.
-# finally there are 400 samples found in RAP
-# There are 969 samples we want to analyze.
-# finally there are 443 samples found in RAP
-# There are 897 samples we want to analyze.
-# finally there are 415 samples found in RAP
-# There are 955 samples we want to analyze.
-# finally there are 445 samples found in RAP
-# There are 949 samples we want to analyze.
-# finally there are 435 samples found in RAP
-# There are 919 samples we want to analyze.
-# finally there are 418 samples found in RAP
-# There are 914 samples we want to analyze.
-# finally there are 433 samples found in RAP
-# There are 957 samples we want to analyze.
-# finally there are 431 samples found in RAP
-# There are 904 samples we want to analyze.
-# finally there are 420 samples found in RAP
-# There are 913 samples we want to analyze.
-# finally there are 412 samples found in RAP
-# There are 941 samples we want to analyze.
-# finally there are 421 samples found in RAP
-# There are 950 samples we want to analyze.
-# finally there are 430 samples found in RAP
-# There are 888 samples we want to analyze.
-# finally there are 434 samples found in RAP
-# There are 897 samples we want to analyze.
-# finally there are 397 samples found in RAP
-# There are 903 samples we want to analyze.
-# finally there are 401 samples found in RAP
-# There are 895 samples we want to analyze.
-# finally there are 413 samples found in RAP
-# There are 898 samples we want to analyze.
-# finally there are 398 samples found in RAP
-# There are 910 samples we want to analyze.
-# finally there are 428 samples found in RAP
-# There are 954 samples we want to analyze.
-# finally there are 456 samples found in RAP
-# There are 942 samples we want to analyze.
-# finally there are 463 samples found in RAP
-# There are 924 samples we want to analyze.
-# finally there are 428 samples found in RAP
-# There are 963 samples we want to analyze.
-# finally there are 438 samples found in RAP
-# There are 932 samples we want to analyze.
-# finally there are 411 samples found in RAP
-# There are 943 samples we want to analyze.
-# finally there are 431 samples found in RAP
-# There are 902 samples we want to analyze.
-# finally there are 415 samples found in RAP
-# There are 961 samples we want to analyze.
-# finally there are 448 samples found in RAP
-# There are 928 samples we want to analyze.
-# finally there are 445 samples found in RAP
-# There are 925 samples we want to analyze.
-# finally there are 423 samples found in RAP
-# There are 888 samples we want to analyze.
-# finally there are 397 samples found in RAP
-# There are 896 samples we want to analyze.
-# finally there are 423 samples found in RAP
-# There are 957 samples we want to analyze.
-# finally there are 430 samples found in RAP
-# There are 957 samples we want to analyze.
-# finally there are 451 samples found in RAP
-# There are 897 samples we want to analyze.
-# finally there are 380 samples found in RAP
-# There are 910 samples we want to analyze.
-# finally there are 410 samples found in RAP
-# There are 266 samples we want to analyze.
-# finally there are 106 samples found in RAP
+
+# There are 1689 samples we want to analyze.
+# finally there are 1680 samples found in RAP
+# There are 1609 samples we want to analyze.
+# finally there are 1601 samples found in RAP
+# There are 1594 samples we want to analyze.
+# finally there are 1589 samples found in RAP
+# There are 1643 samples we want to analyze.
+# finally there are 1636 samples found in RAP
+# There are 1661 samples we want to analyze.
+# finally there are 1656 samples found in RAP
+# There are 1631 samples we want to analyze.
+# finally there are 1625 samples found in RAP
+# There are 1685 samples we want to analyze.
+# finally there are 1681 samples found in RAP
+# There are 1551 samples we want to analyze.
+# finally there are 1547 samples found in RAP
+# There are 1647 samples we want to analyze.
+# finally there are 1645 samples found in RAP
+# There are 1667 samples we want to analyze.
+# finally there are 1654 samples found in RAP
+# There are 1721 samples we want to analyze.
+# finally there are 1713 samples found in RAP
+# There are 1668 samples we want to analyze.
+# finally there are 1661 samples found in RAP
+# There are 1649 samples we want to analyze.
+# finally there are 1638 samples found in RAP
+# There are 1601 samples we want to analyze.
+# finally there are 1596 samples found in RAP
+# There are 1645 samples we want to analyze.
+# finally there are 1641 samples found in RAP
+# There are 1621 samples we want to analyze.
+# finally there are 1616 samples found in RAP
+# There are 1630 samples we want to analyze.
+# finally there are 1620 samples found in RAP
+# There are 1638 samples we want to analyze.
+# finally there are 1631 samples found in RAP
+# There are 1623 samples we want to analyze.
+# finally there are 1613 samples found in RAP
+# There are 1690 samples we want to analyze.
+# finally there are 1684 samples found in RAP
+# There are 1619 samples we want to analyze.
+# finally there are 1613 samples found in RAP
+# There are 1703 samples we want to analyze.
+# finally there are 1696 samples found in RAP
+# There are 1616 samples we want to analyze.
+# finally there are 1610 samples found in RAP
+# There are 1630 samples we want to analyze.
+# finally there are 1620 samples found in RAP
+# There are 1609 samples we want to analyze.
+# finally there are 1602 samples found in RAP
+# There are 1651 samples we want to analyze.
+# finally there are 1648 samples found in RAP
+# There are 1645 samples we want to analyze.
+# finally there are 1634 samples found in RAP
+# There are 1606 samples we want to analyze.
+# finally there are 1600 samples found in RAP
+# There are 1658 samples we want to analyze.
+# finally there are 1646 samples found in RAP
+# There are 1639 samples we want to analyze.
+# finally there are 1635 samples found in RAP
+# There are 1703 samples we want to analyze.
+# finally there are 1694 samples found in RAP
+# There are 1675 samples we want to analyze.
+# finally there are 1670 samples found in RAP
+# There are 1618 samples we want to analyze.
+# finally there are 1610 samples found in RAP
+# There are 1602 samples we want to analyze.
+# finally there are 1594 samples found in RAP
+# There are 1622 samples we want to analyze.
+# finally there are 1614 samples found in RAP
+# There are 1636 samples we want to analyze.
+# finally there are 1629 samples found in RAP
+# There are 1583 samples we want to analyze.
+# finally there are 1571 samples found in RAP
+# There are 1564 samples we want to analyze.
+# finally there are 1552 samples found in RAP
+# There are 1633 samples we want to analyze.
+# finally there are 1631 samples found in RAP
+# There are 1650 samples we want to analyze.
+# finally there are 1639 samples found in RAP
+# There are 1641 samples we want to analyze.
+# finally there are 1632 samples found in RAP
+# There are 1592 samples we want to analyze.
+# finally there are 1585 samples found in RAP
+# There are 1641 samples we want to analyze.
+# finally there are 1635 samples found in RAP
+# There are 1658 samples we want to analyze.
+# finally there are 1655 samples found in RAP
+# There are 1606 samples we want to analyze.
+# finally there are 1598 samples found in RAP
+# There are 1638 samples we want to analyze.
+# finally there are 1633 samples found in RAP
+# There are 1593 samples we want to analyze.
+# finally there are 1591 samples found in RAP
+# There are 1652 samples we want to analyze.
+# finally there are 1645 samples found in RAP
+# There are 1627 samples we want to analyze.
+# finally there are 1619 samples found in RAP
+# There are 1609 samples we want to analyze.
+# finally there are 1599 samples found in RAP
+# There are 417 samples we want to analyze.
+# finally there are 417 samples found in RAP
