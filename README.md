@@ -3,6 +3,12 @@
 this script is implemented in beluga.
 make sure you've installed dxpy using pip
 and login to your UKB-RAP account
+
+# for dx
+## it can be installed as described here https://documentation.dnanexus.com/downloads
+# do this if your dx command doesnt work well
+export PATH="$HOME/.local/bin:$PATH"
+
 # WHAT DID THE SCRIPTS DO
 1. create a docker image for Gauchian pipeline - build_docker.sh and Dockerfile.
 2. find data on UKB-RAP and overlap sample IDs with samples of interest - GBA_pipeline.part1.sh
@@ -32,7 +38,3 @@ the current scripts need to optimized.
 UKB-RAP stores genes into different batch files. the info for each batch file is stored somewhere. you can find the coordinates for each gene. my scripts simply iterate all batch files and take the genes (inefficient). this works on both WGS and WES data
 
 
-# for dx
-## it can be installed as described here https://documentation.dnanexus.com/downloads
-# do this if your dx command doesnt work well
-f

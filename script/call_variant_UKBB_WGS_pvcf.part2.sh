@@ -18,10 +18,10 @@ for chr in $(seq 1 22) X; do
     if ls ukb23374_c${chr}_b*.vcf.gz 1> /dev/null 2>&1; then
         # Create the merge list
         ls ukb23374_c${chr}_b*.vcf.gz | sort -t'b' -k2,2n > chr${chr}.merge.list
-        
+
         # Count the number of files in the merge list
         file_count=$(wc -l < chr${chr}.merge.list)
-        
+
         # Calculate the total size of the files in MB
         total_size_mb=$(awk '{cmd="du -m " $1; cmd | getline size; close(cmd); sum+=size} END {print sum}' chr${chr}.merge.list)
 
@@ -39,7 +39,7 @@ for chr in $(seq 1 22) X; do
 
         # Define output file name
         out_name=ukb23374_c${chr}.vcf.gz
-
+        rm $out_name
         # Create the command
         command="bcftools concat -f chr${chr}.merge.list -Oz -o ${out_name} && tabix ${out_name}"
 
