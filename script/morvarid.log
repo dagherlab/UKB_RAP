@@ -1,0 +1,57 @@
+bed file found
+confirm the bed file is ok
+continue?(y/n)
+1 12166991 12209220 TNFRSF1B
+1 211326833 211374946 TRAF5
+2 201260536 201287709 CASP8
+4 102501359 102617302 NFKB1
+6 31575565 31578336 TNF
+9 136886516 136926607 TRAF2
+9 120902393 120926796 TRAF1
+10 102395705 102402524 NFKB2
+12 6328771 6342076 TNFRSF1A
+16 67154185 67159909 TRADD
+confirm the batch file is ok
+continue?(y/n)
+ID                                file-Gy38KjQJ95Kv4bp1fjXK5yVp
+Class                             file
+Project                           project-GvFxJ08J95KXx97XFz8g2X2g
+Folder                            /temp
+Name                              morvarid.GRCh38.bed
+State                             closing
+Visibility                        visible
+Types                             -
+Properties                        -
+Tags                              -
+Outgoing links                    -
+Created                           Tue Jan 14 10:48:50 2025
+Created by                        liulang
+Last modified                     Tue Jan 14 10:48:51 2025
+Media type                        
+archivalState                     "live"
+cloudAccount                      "cloudaccount-dnanexus"
+job-Gy38Kk8J95Kq0JypG46Ff73y
+job-Gy38KpQJ95KZXgPp2K4YxFFZ
+job-Gy38KqQJ95KkJZ7zg1BXkyGj
+job-Gy38KvjJ95Ky9VXyPJ4XByvj
+job-Gy38Kx8J95KZ9PYzQkZbzK5Z
+job-Gy38Ky0J95Kkybk6vq3gj5ky
+job-Gy38Kz0J95KYPFbjv45bk68X
+job-Gy38P00J95KVqjFXk41750K6
+job-Gy38P1QJ95Kq0JypG46Ff744
+job-Gy38P30J95KZgZpVFXJ8PY5y
+job-Gy38P4QJ95KZPJqv8Jv5bXXj
+job-Gy38P5QJ95KVqjFXk41750Kk
+job-Gy38P68J95KpBjQKfy22kJ4v
+job-Gy38P78J95KXqb06BG4f3ggK
+job-Gy38P80J95Kfj3v2YvZ58VJx
+job-Gy38PQQJ95KZXgPp2K4YxFGg
+job-Gy38PV8J95KkJZ7zg1BXkyJb
+job-Gy38PXQJ95KVqjFXk41750P8
+job-Gy38PYQJ95KY7JYKfb7q33Xy
+job-Gy38PbQJ95KpBFx17B1z6zBv
+job-Gy38Pf8J95KZYB9ZVKqJqqB8
+job-Gy38Pg8J95KvPfB35zQ2qVQy
+job-Gy38PkjJ95KZzfgk5z2kP891
+job-Gy38PpjJ95KZy2FVypfKy294
+job-Gy38Pq8J95Kpf6y7jYyz07fj

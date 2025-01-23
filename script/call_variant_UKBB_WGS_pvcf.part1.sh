@@ -96,3 +96,9 @@ fi
 ## cem's 46 genes
 ### its list comes with 48 genes but gla and g6pd are in leah's request. So I delete them
 # bash call_variant_UKBB_WGS_pvcf.part1.sh cem46.txt . cem46 3h ~/scratch/genotype/UKBB_RAP/cem46/ cem_152_samples.txt > cem46.log
+
+
+
+# morvarid's tnf
+# bash call_variant_UKBB_WGS_pvcf.part1.sh morvarid.txt . morvarid 3h ~/scratch/genotype/UKBB_RAP/morvarid/ > morvarid.log
+# bash download_dx.sh ~/scratch/genotype/UKBB_RAP/morvarid/ morvarid/

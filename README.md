@@ -23,6 +23,10 @@ this script can be improved. I dont know how to avoid using the swiss army knife
 # download genes from WGS/WES pvcf data (under development)
 update:
 
+2025-01-21
+- try ttyd in the future
+    - it is a terminal
+
 2025-01-08
 - scripts for WGS data are optimized. there is a helper file (graphtyper_pvcf_cooridnates.csv) which has the coordinate for each batch file. 
 1. the script (identify_batch_files) locate the batch file by the genes' position. then all batch files will be summarized into *.batch.txt with their directories on UKB RAP.
