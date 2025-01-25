@@ -5,12 +5,12 @@ module load StdEnv/2020 gcc/9.3.0 bcftools/1.16
 mkdir -p ../cem_merge/
 # Iterate over chromosomes 1 to 22 and X
 for chr in $(seq 1 22) X; do
-    out_name=../cem_merge/ukb23374_c${chr}.vcf.gz
+    out_name=ukb23374_c${chr}.vcf.gz
     if [ ! -f ${out_name} ];then
     # Check if there are files for the chromosome
     if ls ukb23374_c${chr}_b*.vcf.gz 1> /dev/null 2>&1; then
         # Create the merge list
-        #ls ukb23374_c${chr}_b*.vcf.gz | sort -t'_' -k3.2n > chr${chr}.merge.list
+        ls ukb23374_c${chr}_b*.vcf.gz | sort -t'_' -k3.2n > chr${chr}.merge.list
         echo "Here are the sorted batch files for chromosome ${chr}:"
         #cat chr${chr}.merge.list
         echo "Please confirm the sorting is correct (yes or no):"
