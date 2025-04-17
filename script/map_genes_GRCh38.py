@@ -28,7 +28,7 @@ pathname = args.name
 #get gff file and see if I can retrieve it
 ### check the reference genome before you read them
 ## GRCh38 (uncomment this for GRCh38)
-ref=pd.read_csv("~/runs/go_lab/gencode/gencode.v44.annotation.gtf",sep = "\t",skiprows=5,header=None)
+ref=pd.read_csv("~/runs/lang/reference/gencode.v47.annotation.gtf",sep = "\t",skiprows=5,header=None)
 ## GRCh37 (uncomment this for GRCh37)
 # ref=pd.read_csv("~/runs/go_lab/gencode/gencode.v40lift37.annotation.gtf",sep = "\t",skiprows=5,header=None)
 

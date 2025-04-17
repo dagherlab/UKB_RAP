@@ -2,7 +2,7 @@
 
 # Iterate over chromosomes 1 to 22 and X
 module load StdEnv/2020 gcc/9.3.0 bcftools/1.16
-mkdir -p ../cem_merge/
+# mkdir -p ../cem_merge/
 # Iterate over chromosomes 1 to 22 and X
 for chr in $(seq 1 22) X; do
     out_name=ukb23374_c${chr}.vcf.gz

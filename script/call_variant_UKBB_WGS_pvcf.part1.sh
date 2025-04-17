@@ -1,4 +1,5 @@
 #!/bin/bash
+# if you wanna provide a bed file. name it with the format ${pathname}.GRCh38.bed
 #gene_list is simply a text file with gene name on each line
 # gene_list txt file of gene names on each line
 # output output folder for bed files
@@ -8,7 +9,7 @@
 # keep_samples, sample file with sample ID on each line 
 
 read gene_list output pathname sleep_time download_output keep_samples <<< $@
-
+echo "gene_list:$gene_list; output:$output; pathway:$pathname; sleep_time:$sleep_time; download_output: $download_output; keep_samples:$keep_samples"
 
 module load StdEnv/2020 scipy-stack/2020a python/3.8.10
 # be careful with the reference file in map_genes.py.
@@ -30,16 +31,17 @@ read answer
 if [[ "$answer" == "y" ]];then 
     # identify batch files covering the genes based on the bed file
     if [ ! -f ${pathname}.batch.txt ];then
+        echo "identifying batch files associated with the genes"
         bash identify_batch_files.sh $pathname.GRCh38.bed
     else 
-    echo "batch file found"
+        echo "batch file found"
     fi
     echo "confirm the batch file is ok"
     echo "continue?(y/n)"
     read answer
     if [[ "$answer" == "y" ]];then 
-        dx mkdir -p $pathname/
-        out=/$pathname/
+        dx mkdir -p genes/$pathname/
+        out=genes/$pathname/
         if [ ! -n ${keep_samples} ];then 
             bash call_variant_WGS.sh $pathname.GRCh38.bed $out ${pathname}.batch.txt
         else
@@ -73,6 +75,16 @@ fi
 
 
 # what have been done
+
+# Sajanth's 14 genes
+# bash call_variant_UKBB_WGS_pvcf.part1.sh Sajanth.genelist.txt . Sajanth14 3h ~/scratch/genotype/UKBB_RAP/sajanth
+
+
+
+# konstantin's 8 genes
+# bash call_variant_UKBB_WGS_pvcf.part1.sh konstantin8.txt . konstantin8 1h ~/scratch/genotype/UKBB_RAP/konstantin8
+bash download_dx.sh ~/scratch/genotype/UKBB_RAP/konstantin8/ konstantin8/
+
 ## cem 152 genes
 # bash call_variant_UKBB_WGS_pvcf.part1.sh cem_152.txt . cem152 3h ~/scratch/genotype/UKBB_RAP/cem152/ cem_152_samples.txt > cem152.log
 # GBA1 took half hour to finish and 0.03 euro without subsetting by samples
