@@ -17,6 +17,10 @@ path = args.input
 with open(path,"r") as f:
     genes = f.read().strip()
 genes = genes.split("\n")
+# remove space
+for i in range(len(genes)):
+    genes[i] = genes[i].strip()
+
 # remove duplicates
 uniq = list(set(genes))
 if len(uniq) != len(genes):

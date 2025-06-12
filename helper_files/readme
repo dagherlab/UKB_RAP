@@ -7,5 +7,23 @@ wget  -nd  biobank.ndph.ox.ac.uk/ukb/ukb/auxdata/dragen_pvcf_coordinates.zip
 
 
 here describes the index of WES final release
-https://biobank.ndph.ox.ac.uk/showcase/refer.cgi?id=1000
-wget  -nd  biobank.ndph.ox.ac.uk/ukb/ukb/auxdata/1000genomes.grch38.fasta-index.tar.gz
+23157 coordinate is not given but I believe it is same as previous WES release in https://biobank.ndph.ox.ac.uk/showcase/refer.cgi?id=837
+
+for chrX, the number of batch files matches
+wget  -nd  biobank.ndph.ox.ac.uk/ukb/ukb/auxdata/pvcf_blocks.txt
+
+header names is 
+Index
+Chromosome
+Block
+First position
+Last position
+
+# perform this to modify the file
+
+
+awk 'BEGIN { print "file_name,chromosome,starting_position,last_position" }
+{
+  chr = ($2 == 23 ? "X" : ($2 == 24 ? "Y" : $2))
+  printf "ukb23157_c%s_b%s_v1.vcf.gz,%s,%s,%s\n", chr, $3, chr, $4, $5
+}' pvcf_blocks.txt > pvcf_blocks_transformed.csv

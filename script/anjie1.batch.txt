@@ -1,0 +1,11 @@
+project-GvFxJ08J95KXx97XFz8g2X2g:/Bulk/GATK and GraphTyper WGS/GraphTyper population level WGS variants, pVCF format [500k release]/chr8//ukb23374_c8_b3473_v1.vcf.gz
+project-GvFxJ08J95KXx97XFz8g2X2g:/Bulk/GATK and GraphTyper WGS/GraphTyper population level WGS variants, pVCF format [500k release]/chr8//ukb23374_c8_b3474_v1.vcf.gz
+project-GvFxJ08J95KXx97XFz8g2X2g:/Bulk/GATK and GraphTyper WGS/GraphTyper population level WGS variants, pVCF format [500k release]/chr8//ukb23374_c8_b3475_v1.vcf.gz
+project-GvFxJ08J95KXx97XFz8g2X2g:/Bulk/GATK and GraphTyper WGS/GraphTyper population level WGS variants, pVCF format [500k release]/chr8//ukb23374_c8_b3476_v1.vcf.gz
+project-GvFxJ08J95KXx97XFz8g2X2g:/Bulk/GATK and GraphTyper WGS/GraphTyper population level WGS variants, pVCF format [500k release]/chr8//ukb23374_c8_b3477_v1.vcf.gz
+project-GvFxJ08J95KXx97XFz8g2X2g:/Bulk/GATK and GraphTyper WGS/GraphTyper population level WGS variants, pVCF format [500k release]/chr8//ukb23374_c8_b3478_v1.vcf.gz
+project-GvFxJ08J95KXx97XFz8g2X2g:/Bulk/GATK and GraphTyper WGS/GraphTyper population level WGS variants, pVCF format [500k release]/chr8//ukb23374_c8_b3479_v1.vcf.gz
+project-GvFxJ08J95KXx97XFz8g2X2g:/Bulk/GATK and GraphTyper WGS/GraphTyper population level WGS variants, pVCF format [500k release]/chr8//ukb23374_c8_b3480_v1.vcf.gz
+project-GvFxJ08J95KXx97XFz8g2X2g:/Bulk/GATK and GraphTyper WGS/GraphTyper population level WGS variants, pVCF format [500k release]/chr8//ukb23374_c8_b3481_v1.vcf.gz
+project-GvFxJ08J95KXx97XFz8g2X2g:/Bulk/GATK and GraphTyper WGS/GraphTyper population level WGS variants, pVCF format [500k release]/chr8//ukb23374_c8_b3482_v1.vcf.gz
+project-GvFxJ08J95KXx97XFz8g2X2g:/Bulk/GATK and GraphTyper WGS/GraphTyper population level WGS variants, pVCF format [500k release]/chr8//ukb23374_c8_b3483_v1.vcf.gz

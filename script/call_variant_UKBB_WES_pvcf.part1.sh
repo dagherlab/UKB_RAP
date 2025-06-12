@@ -3,16 +3,24 @@
 gene_list=$1
 output=$2
 pathname=$3
-sleep_time=$4
-download_output=$5
+keep_sample=$4
+sleep_time=$5
+download_output=$6
 module load StdEnv/2020 scipy-stack/2020a python/3.8.10
 # be careful with the reference file in map_genes.py.
+if [ ! -f ${pathname}.GRCh38.bed ];then
 python map_genes_GRCh38.py -i $gene_list -o $output -p $pathname
+fi
 # before you run this command
 ## make sure your dx is setup
-dx mkdir $pathname/
-out=/$pathname/
-bash call_variant_dx.sh $pathname.GRCh38.bed $out
+out=genes_WES/$pathname/
+dx mkdir $out
+if [ ! -f ${pathname}.batch.WES.txt ];then
+bash identify_batch_files_WES.sh ${pathname}.GRCh38.bed
+fi
+# a file containing with name $pathname.batch.WES.txt with batch files are created. we will loop each of them and extract variants
+bash call_variant_WES.sh ${pathname}.batch.WES.txt ${pathname}.GRCh38.bed $keep_sample $out
+# bash call_variant_dx.sh $pathname.GRCh38.bed $out
 sleep $4
 mkdir -p $download_output
 dx download $out/* -o $download_output

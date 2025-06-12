@@ -1,0 +1,16 @@
+20002: Self-reported non-cancer illnesses
+41270: Hospital inpatient diagnoses (ICD codes)
+20111: Illnesses of siblings
+20110: Illnesses of mother
+20107: Illnesses of father
+22001: Genetic sex
+22006: Genetic ethnic grouping
+22009: Genetic principal components
+22000: Genotype measurement batch
+34: Year at birth
+21022: Age at recruitment
+22021: Genetic kinship
+22019: Sex chromosome aneuploidy
+22027: Outliers for heterozygosity
+26261: Enhanced PRS for PD
+26260: Standard PRS for PD

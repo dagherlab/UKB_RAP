@@ -1,0 +1,31 @@
+Field ID	Description
+30565	Does snoring affect other people
+30551	Experiences of abrupt dropping of head and/or shoulders in various situations
+30549	Experiences of buckling of the knees in various situations
+30554	"Experiences of falling to the ground, unable to move in various situations"
+30550	Experiences of sagging of the jaw in various situations
+30553	Experiences of slurring of speech in various situations
+30552	Experiences of weakness in your arms in various situations
+30569	Falling asleep when driving
+30567	Feelings of tiredness after sleep
+30568	Feelings of tiredness during waking time
+30557	Frequency of 'acting out dreams'
+30570	Frequency of falling asleep when driving
+30556	Frequency of grinding teeth
+30571	Frequency of motor accidents or near misses due to sleepiness in the last year
+30559	Frequency of nightmares
+30560	Frequency of remembering dreams
+30555	Frequency of sleep walking
+30564	Frequency of snoring
+30566	Frequency of stopping breathing during sleep
+30558	Frequency of violent behaviour during sleep
+30562	Occurrence of snoring
+30561	"Seizures, convulsions or fits during sleep"
+30546	Tendency to be asleep soundly at normal waking time
+30547	Tendency to sleep well but only if go to bed early
+30545	Tendency to sleep well but only if stay up late
+30544	Tendency to sleep well just at the wrong times
+30548	"Tendency to wake early, bright and alert"
+30563	Volume of snoring
+32122	When online sleep disturbances questionnaire completed
+32121	When online sleep disturbances questionnaire started

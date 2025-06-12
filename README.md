@@ -9,6 +9,12 @@ and login to your UKB-RAP account
 # do this if your dx command doesnt work well
 export PATH="$HOME/.local/bin:$PATH"
 
+# bind your dx program to your account and project (login)
+https://documentation.dnanexus.com/getting-started/cli-quickstart
+dx login
+## choose your project. project-GvFxJ08J95KXx97XFz8g2X2g
+dx select --level VIEW
+
 # WHAT DID THE SCRIPTS DO
 1. create a docker image for Gauchian pipeline - build_docker.sh and Dockerfile.
 2. find data on UKB-RAP and overlap sample IDs with samples of interest - GBA_pipeline.part1.sh
@@ -27,11 +33,18 @@ update:
 - try ttyd in the future
     - it is a terminal
 
+
+
+do this if you need to use dx
+export PATH="$HOME/.local/bin:$PATH"
+
 2025-01-08
 - scripts for WGS data are optimized. there is a helper file (graphtyper_pvcf_cooridnates.csv) which has the coordinate for each batch file. 
 1. the script (identify_batch_files) locate the batch file by the genes' position. then all batch files will be summarized into *.batch.txt with their directories on UKB RAP.
 2. call_variant_WGS.sh uploads the bed file to UKB RAP and iterate each batch file in *.batch.txt to submit jobs.
-3. download each file 
+3. download each file by dx download dir/ -o /local/dir
+4. call_variant_UKBB_WGS_pvcf.part2.sh index every downloaded vcf files
+5. call_variant_UKBB_WGS_pvcf.part3.sh concatenates every batch file by chr. bcftools --naive flag can boost the process because the headers are same (make sure each vcf file has same set of samples (see subset.sh for more details))
 
 note:
 1. there is a tradeoff when you wanna reduce the cost. subsetting the data by variants or samples makes it longer. and the final data is smaller. I dont know which costs more (download or using resource). keep the analysis simple and download the output. we won't use much resource.

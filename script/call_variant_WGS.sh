@@ -22,9 +22,15 @@ if dx ls "temp/$bed_file1" > /dev/null 2>&1; then
 else
     dx upload $bed_file --path temp/
 fi 
-
+if [ -n "$keep_samples" ];then sample_file=$(basename $keep_samples); fi
+if ! dx ls "temp/$keep_samples" > /dev/null 2>&1; then
+    echo "uploading sample file"
+    dx upload $keep_samples --path temp/
+fi 
 # Iterate over each batch file and submit jobs
-cat $batch_file|while read -r file;do 
+exec 3</dev/tty   # Open file descriptor 3 for keyboard input
+answer_temp=N
+while read -r file;do 
     file1=$(basename "$file")
     file2=$(basename "$file" .vcf.gz)
     # echo "$file1 $file2"
@@ -37,20 +43,26 @@ cat $batch_file|while read -r file;do
             # subset data by sample IDs
             if [ -n "$keep_samples" ]; then
                 echo "data will be subset by sample file $keep_samples"
-                sample_file=$(basename $keep_samples)
-                if ! dx ls "temp/$keep_samples" > /dev/null 2>&1; then
-                    echo "uploading sample file"
-                    dx upload $keep_samples --path temp/
-                fi 
-                dx run app-swiss-army-knife --instance-type mem1_ssd1_v2_x8 -y -iin="$file" -iin="project-GvFxJ08J95KXx97XFz8g2X2g:temp/${sample_file}" -iin="${file}.tbi" -iin="project-GvFxJ08J95KXx97XFz8g2X2g:temp/${bed_file1}" -icmd="bcftools view --samples-file ${keep_samples} -Oz -o ${file2}.subset.vcf.gz -R ${bed_file1} $file1 --force-samples" --destination ${out} --brief --priority low
+                
+                dx run app-swiss-army-knife --instance-type mem1_ssd1_v2_x8 -y -iin="$file" -iin="project-GvFxJ08J95KXx97XFz8g2X2g:temp/${sample_file}" -iin="${file}.tbi" -iin="project-GvFxJ08J95KXx97XFz8g2X2g:temp/${bed_file1}" -icmd="bcftools view --samples-file ${keep_samples} -Oz -o ${file2}.subset.vcf.gz -R ${bed_file1} $file1 --force-samples && tabix ${file2}.subset.vcf.gz" --destination ${out} --brief --priority high
             else 
-                dx run app-swiss-army-knife --instance-type mem1_ssd1_v2_x8 -y -iin="$file" -iin="${file}.tbi" -iin="project-GvFxJ08J95KXx97XFz8g2X2g:temp/${bed_file1}" -icmd="bcftools view -Oz -o ${file2}.subset.vcf.gz -R ${bed_file1} $file1" --destination ${out} --brief --priority low
+                dx run app-swiss-army-knife --instance-type mem1_ssd1_v2_x8 -y -iin="$file" -iin="${file}.tbi" -iin="project-GvFxJ08J95KXx97XFz8g2X2g:temp/${bed_file1}" -icmd="bcftools view -Oz -o ${file2}.subset.vcf.gz -R ${bed_file1} $file1 && tabix ${file2}.subset.vcf.gz" --destination ${out} --brief --priority high
             fi 
+            if [[ "$answer_temp" == "N" ]];then 
+                echo "please wait for the completion of your first job on UKB-RAP and see if it works. if yes. please answer Y"
+                echo "continue?(Y/n)"
+                read -u 3 answer2
+                if [[ "$answer2" != "Y" ]];then 
+                    exit 42
+                else
+                    answer_temp=Y
+                fi 
+            fi
         fi
     else
         echo "file $file doesn't exit"
     fi
-done
+done < "$batch_file"
 # you can download the files by "dx download [file]""
 
 #use "dx find" jobs to view all running jobs 

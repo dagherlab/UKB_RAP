@@ -1,0 +1,266 @@
+gene_list:COMMANDER.txt; output:.; pathway:COMMANDER23; sleep_time:6h; download_output: /home/liulang/scratch/genotype/UKBB_RAP/COMMANDER23/; keep_samples:
+loading packages
+all the genes have been identified in gencode, you are good
+the results bed file
+           chr      start        end         gene
+466088    chr2   61888724   62147247       COMMD1
+538148    chr2  117915478  118014133       CCDC93
+894528    chr3  149738472  149752495       COMMD2
+1003645   chr4   47450787   47463702       COMMD8
+1239512   chr5  116085016  116412762      COMMD10
+1575612   chr7   38722974   38932394        VPS41
+1893039   chr8  144841042  144853736       COMMD5
+2087037  chr10   22316386   22320306       COMMD3
+2087183  chr10   22316388   22329542  COMMD3-BMI1
+2207483  chr10  119104086  119137984      DENND10
+2290705  chr11   36269284   36289449       COMMD9
+2433616  chr11  119067818  119081972        VPS11
+2633190  chr12  110491083  110502111        VPS29
+2656798  chr12  122229564  122266502       VPS33A
+2723702  chr13   75525214   75549439       COMMD6
+2925558  chr15   40894450   40903975        VPS18
+2930129  chr15   42158701   42208307        VPS39
+2991588  chr15   75336020   75343224       COMMD4
+3095460  chr16   19555240   19706793       VPS35L
+3728522  chr20    2840703    2866732        VPS16
+3760815  chr20   32702699   32743467       COMMD7
+3847752  chr21   37223420   37267919       VPS26C
+4005015   chrX   49235470   49250520       CCDC22
+confirm the bed file is ok
+continue?(y/n)
+identifying batch files associated with the genes
+2 61888724 62147247 COMMD1
+2 117915478 118014133 CCDC93
+3 149738472 149752495 COMMD2
+4 47450787 47463702 COMMD8
+5 116085016 116412762 COMMD10
+7 38722974 38932394 VPS41
+8 144841042 144853736 COMMD5
+10 22316386 22320306 COMMD3
+10 22316388 22329542 COMMD3-BMI1
+10 119104086 119137984 DENND10
+11 36269284 36289449 COMMD9
+11 119067818 119081972 VPS11
+12 110491083 110502111 VPS29
+12 122229564 122266502 VPS33A
+13 75525214 75549439 COMMD6
+15 40894450 40903975 VPS18
+15 42158701 42208307 VPS39
+15 75336020 75343224 COMMD4
+16 19555240 19706793 VPS35L
+20 2840703 2866732 VPS16
+20 32702699 32743467 COMMD7
+21 37223420 37267919 VPS26C
+X 49235470 49250520 CCDC22
+confirm the batch file is ok
+continue?(y/n)
+ID                                file-J0X30q0J95Kxz6Ppkv66bV08
+Class                             file
+Project                           project-GvFxJ08J95KXx97XFz8g2X2g
+Folder                            /temp
+Name                              COMMANDER23.GRCh38.bed
+State                             closing
+Visibility                        visible
+Types                             -
+Properties                        -
+Tags                              -
+Outgoing links                    -
+Created                           Wed May 14 01:55:56 2025
+Created by                        liulang
+Last modified                     Wed May 14 01:55:57 2025
+Media type                        
+archivalState                     "live"
+cloudAccount                      "cloudaccount-dnanexus"
+job-J0X30qjJ95KfYVQX11jg407X
+job-J0X3vG0J95KXfK14JJyxBYZV
+confirm the bed file is ok
+please wait for the completion of your first job on UKB-RAP and see if it works. if yes. please answer Y
+continue?(Y/n)
+job-J0X3vJQJ95KpBBPfGXy00g73
+confirm the bed file is ok
+job-J0X3vK0J95KYFkG1zZzVF8vg
+confirm the bed file is ok
+job-J0X3vKQJ95KZgbfkJPK33Bg5
+confirm the bed file is ok
+job-J0X3vKjJ95KV5XP3J34z3PGZ
+confirm the bed file is ok
+job-J0X3vP8J95Kxyk0x8YfGFx6V
+confirm the bed file is ok
+job-J0X3vPQJ95KYg46Qvk1j8QzF
+confirm the bed file is ok
+job-J0X3vQ0J95Kp4pj1YFz8VKGk
+confirm the bed file is ok
+job-J0X3vQ8J95Kzq9xQQj4Xq09G
+confirm the bed file is ok
+job-J0X3vQjJ95Kjy66FB35x9jx7
+confirm the bed file is ok
+job-J0X3vV0J95Kf7q0qbXfXq03F
+confirm the bed file is ok
+job-J0X3vVQJ95KxF1zJGfj4pYZz
+confirm the bed file is ok
+job-J0X3vVjJ95Kk41qQ6jqjfgQV
+confirm the bed file is ok
+job-J0X3vX8J95Kf7q0qbXfXq03J
+confirm the bed file is ok
+job-J0X3vXQJ95KXVv31pFx4XB79
+confirm the bed file is ok
+job-J0X3vY0J95KY9qg3Qj47kZbv
+confirm the bed file is ok
+job-J0X3vY8J95KxF1zJGfj4pYb2
+confirm the bed file is ok
+job-J0X3vYjJ95Kg2GV3pvPBg418
+confirm the bed file is ok
+job-J0X3vZ0J95KvyqB97XZ8bfBv
+confirm the bed file is ok
+job-J0X3vZQJ95Kxz6Ppkv66bbzf
+confirm the bed file is ok
+job-J0X3vZjJ95KvK21pzgJgqQj7
+confirm the bed file is ok
+job-J0X3vb8J95KYFkG1zZzVF8xV
+confirm the bed file is ok
+job-J0X3vbQJ95Kx1Y06b5FBv5Jp
+confirm the bed file is ok
+job-J0X3vf0J95KfXXVQgf4ZPB88
+confirm the bed file is ok
+job-J0X3vfQJ95Kx9ZbKb5Bq550p
+confirm the bed file is ok
+job-J0X3vfjJ95KZk1VxQzFvY2vG
+confirm the bed file is ok
+job-J0X3vg8J95KvK21pzgJgqQjk
+confirm the bed file is ok
+job-J0X3vgQJ95KQ425kVjfX979V
+confirm the bed file is ok
+job-J0X3vj0J95KZZB4F39pbBvKf
+confirm the bed file is ok
+job-J0X3vj8J95Kzk72yJG6jQ9jB
+confirm the bed file is ok
+job-J0X3vjjJ95KyBVB41QK1YJYy
+confirm the bed file is ok
+job-J0X3vk0J95KYZGPJxz996ZgF
+confirm the bed file is ok
+job-J0X3vkQJ95KXfK14JJyxBYf3
+confirm the bed file is ok
+job-J0X3vkjJ95KYFkG1zZzVF8yX
+confirm the bed file is ok
+job-J0X3vp8J95KyJ6X873p0BvpJ
+confirm the bed file is ok
+job-J0X3vpQJ95KY92x8Q0FBVz81
+confirm the bed file is ok
+job-J0X3vq0J95KpK655ZXfVk0jG
+confirm the bed file is ok
+job-J0X3vq8J95Kv7v1pVxYzQY5J
+confirm the bed file is ok
+job-J0X3vqjJ95Kk41qQ6jqjfgYb
+confirm the bed file is ok
+job-J0X3vv0J95KY9qg3Qj47kZfz
+confirm the bed file is ok
+job-J0X3vvQJ95KpBBPfGXy00g9j
+confirm the bed file is ok
+job-J0X3vx0J95Kz1zkfXZJ13641
+confirm the bed file is ok
+job-J0X3vx8J95KkGK1B78j6fqQX
+confirm the bed file is ok
+job-J0X3vxjJ95KVBpQfBp8Q4fJ1
+confirm the bed file is ok
+job-J0X3vy0J95Kb9Xzk30qB1P1Z
+confirm the bed file is ok
+job-J0X3vyQJ95KV0xVp9PgZb7V5
+confirm the bed file is ok
+job-J0X3vyjJ95Kz1zkfXZJ13645
+confirm the bed file is ok
+job-J0X3vz8J95Kbvx1yV3v7YqJx
+confirm the bed file is ok
+job-J0X3vzQJ95Kq7p4j0q031X1q
+confirm the bed file is ok
+job-J0X3x00J95Kk41qQ6jqjfgZ0
+confirm the bed file is ok
+job-J0X3x0QJ95Kq7p4j0q031X21
+confirm the bed file is ok
+job-J0X3x0jJ95KZgbfkJPK33Bj9
+confirm the bed file is ok
+job-J0X3x18J95Kv7v1pVxYzQY68
+confirm the bed file is ok
+job-J0X3x1QJ95Kgb9zfq8y7JXXj
+confirm the bed file is ok
+job-J0X3x1jJ95Kvjxfg68XgbKkb
+confirm the bed file is ok
+job-J0X3x28J95KZzvbxvFf8Y794
+confirm the bed file is ok
+job-J0X3x2jJ95KxF1zJGfj4pYjg
+confirm the bed file is ok
+job-J0X3x30J95KVfJ1511FPy1vY
+confirm the bed file is ok
+job-J0X3x3QJ95Kg09p5bVzqvKZk
+confirm the bed file is ok
+job-J0X3x3jJ95Kq7p4j0q031X24
+confirm the bed file is ok
+job-J0X3x48J95KpBBPfGXy00gF6
+confirm the bed file is ok
+job-J0X3x4QJ95KvyqB97XZ8bfKY
+confirm the bed file is ok
+job-J0X3x58J95Kq7p4j0q031X2Q
+confirm the bed file is ok
+job-J0X3x5QJ95KY9qg3Qj47kZjG
+confirm the bed file is ok
+job-J0X3x60J95KQf7yXz0yPB671
+confirm the bed file is ok
+job-J0X3x68J95KvyqB97XZ8bfKx
+confirm the bed file is ok
+job-J0X3x6jJ95KYFkG1zZzVF906
+confirm the bed file is ok
+job-J0X3x70J95KQf7yXz0yPB67b
+confirm the bed file is ok
+job-J0X3x7QJ95Kzk72yJG6jQ9q5
+confirm the bed file is ok
+job-J0X3x7jJ95KXfK14JJyxBYjP
+confirm the bed file is ok
+job-J0X3x88J95KyJ6X873p0Bvv0
+confirm the bed file is ok
+job-J0X3x8QJ95Kzk72yJG6jQ9qY
+confirm the bed file is ok
+job-J0X3x90J95Kk41qQ6jqjfgby
+confirm the bed file is ok
+job-J0X3x98J95KZk1VxQzFvY2zY
+confirm the bed file is ok
+job-J0X3x9jJ95Kxz7vvYGYYXv3Q
+confirm the bed file is ok
+job-J0X3xB0J95KQ425kVjfX97FQ
+confirm the bed file is ok
+job-J0X3xBQJ95KpzgBx75338FXF
+confirm the bed file is ok
+job-J0X3xF0J95KpK655ZXfVk0pJ
+confirm the bed file is ok
+job-J0X3xF8J95Kgb9zfq8y7JXYf
+confirm the bed file is ok
+job-J0X3xFjJ95KZZB4F39pbBvVz
+confirm the bed file is ok
+job-J0X3xG0J95Kg1Qvpz9FF0fkF
+confirm the bed file is ok
+job-J0X3xGQJ95KpK655ZXfVk0pX
+confirm the bed file is ok
+job-J0X3xGjJ95Kx3649fF3QyG08
+confirm the bed file is ok
+job-J0X3xJ8J95KXv83K4P91kzB4
+confirm the bed file is ok
+job-J0X3xJQJ95KY9qg3Qj47kZkK
+confirm the bed file is ok
+job-J0X3xK0J95KVBpQfBp8Q4fVY
+confirm the bed file is ok
+job-J0X3xK8J95Kgb9zfq8y7JXYv
+confirm the bed file is ok
+job-J0X3xKjJ95KYJKj1Gy98B3gY
+confirm the bed file is ok
+job-J0X3xP0J95KY9qg3Qj47kZkg
+confirm the bed file is ok
+job-J0X3xPQJ95KV0xVp9PgZb7Yx
+confirm the bed file is ok
+job-J0X3xPjJ95Kz1zkfXZJ13661
+confirm the bed file is ok
+job-J0X3xQ0J95Kg1Qvpz9FF0fkq
+confirm the bed file is ok
+job-J0X3xQQJ95KQ425kVjfX97G1
+confirm the bed file is ok
+job-J0X3xQjJ95Kv7K3xVBf97xjz
+confirm the bed file is ok
+job-J0X3xV8J95KqF7v6zKk6KP45
+confirm the bed file is ok

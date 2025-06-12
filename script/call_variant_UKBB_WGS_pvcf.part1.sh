@@ -47,7 +47,6 @@ if [[ "$answer" == "y" ]];then
         else
             bash call_variant_WGS.sh $pathname.GRCh38.bed $out ${pathname}.batch.txt $keep_samples
         fi 
-        exit
         sleep $4
         mkdir -p $download_output
         echo "looks like it is completed, do you wanna download them (y/n)"
@@ -75,6 +74,20 @@ fi
 
 
 # what have been done
+# Han
+# echo "SLC25A46" > Han.txt
+# bash call_variant_UKBB_WGS_pvcf.part1.sh Han.txt . SLC25A46 1h ~/scratch/genotype/UKBB_RAP/SLC25A46/ 
+# bash download_dx.sh ~/scratch/genotype/UKBB_RAP/SLC25A46/  genes/SLC25A46/
+# Yoomin
+# echo "SLC7A11" > Yoomin.txt
+# bash call_variant_UKBB_WGS_pvcf.part1.sh Yoomin.txt . SLC7A11 6h ~/scratch/genotype/UKBB_RAP/SLC7A11/ 
+# bash download_dx.sh ~/scratch/genotype/UKBB_RAP/SLC7A11/  genes/SLC7A11/
+# Commander genes
+# bash call_variant_UKBB_WGS_pvcf.part1.sh COMMANDER.txt . COMMANDER23 6h ~/scratch/genotype/UKBB_RAP/COMMANDER23/ > COMMANDER23.log
+# bash download_dx.sh ~/scratch/genotype/UKBB_RAP/COMMANDER23/ genes/COMMANDER23/
+
+# anjie 1 gene
+# bash call_variant_UKBB_WGS_pvcf.part1.sh anjie.txt . anjie1 1h ~/scratch/genotype/UKBB_RAP/anjie
 
 # Sajanth's 14 genes
 # bash call_variant_UKBB_WGS_pvcf.part1.sh Sajanth.genelist.txt . Sajanth14 3h ~/scratch/genotype/UKBB_RAP/sajanth
@@ -83,7 +96,7 @@ fi
 
 # konstantin's 8 genes
 # bash call_variant_UKBB_WGS_pvcf.part1.sh konstantin8.txt . konstantin8 1h ~/scratch/genotype/UKBB_RAP/konstantin8
-bash download_dx.sh ~/scratch/genotype/UKBB_RAP/konstantin8/ konstantin8/
+# bash download_dx.sh ~/scratch/genotype/UKBB_RAP/konstantin8/ konstantin8/
 
 ## cem 152 genes
 # bash call_variant_UKBB_WGS_pvcf.part1.sh cem_152.txt . cem152 3h ~/scratch/genotype/UKBB_RAP/cem152/ cem_152_samples.txt > cem152.log
