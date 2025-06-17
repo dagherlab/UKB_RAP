@@ -1,0 +1,4 @@
+this is designed for compressing connectome folder.
+dx build . -f
+how to use:
+dx run compress-folder -ifolder_path=31022 --destination=connectome/ --name="compress1" --yes

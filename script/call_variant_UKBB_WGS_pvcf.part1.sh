@@ -8,8 +8,30 @@
 # download_output # output folder for all vcf files.
 # keep_samples, sample file with sample ID on each line 
 
-read gene_list output pathname sleep_time download_output keep_samples <<< $@
-echo "gene_list:$gene_list; output:$output; pathway:$pathname; sleep_time:$sleep_time; download_output: $download_output; keep_samples:$keep_samples"
+read gene_list output pathname download_output keep_samples <<< $@
+echo "gene_list:$gene_list; output:$output; pathway:$pathname; download_output: $download_output; keep_samples:$keep_samples"
+sleep_time=6h # the latest update takes at leat 3.5 hours
+if [[ -z "$gene_list" ]]; then
+  echo "Error: gene_list is missing."
+fi
+
+if [[ -z "$output" ]]; then
+  echo "Error: output is missing."
+fi
+
+if [[ -z "$pathname" ]]; then
+  echo "Error: pathname is missing."
+fi
+
+if [[ -z "$download_output" ]]; then
+  echo "Error: download_output is missing."
+fi
+
+if [[ -z "$keep_samples" ]]; then
+  echo "Error: keep_samples is missing. you have to submit a sample ID file. this is mandatory in the latest update."
+  echo "you can use /lustre03/project/6004655/COMMUN/runs/lang/Commander/data/Filter_ID.txt which includes PD cases + control + proxy if you are working with PD"
+fi
+
 
 module load StdEnv/2020 scipy-stack/2020a python/3.8.10
 # be careful with the reference file in map_genes.py.
@@ -42,13 +64,9 @@ if [[ "$answer" == "y" ]];then
     if [[ "$answer" == "y" ]];then 
         dx mkdir -p genes/$pathname/
         out=genes/$pathname/
-        if [ ! -n ${keep_samples} ];then 
-            bash call_variant_WGS.sh $pathname.GRCh38.bed $out ${pathname}.batch.txt
-        else
-            bash call_variant_WGS.sh $pathname.GRCh38.bed $out ${pathname}.batch.txt $keep_samples
-        fi 
-        sleep $4
+        bash call_variant_WGS.sh $pathname.GRCh38.bed $out ${pathname}.batch.txt $keep_samples
         mkdir -p $download_output
+        sleep $4
         echo "looks like it is completed, do you wanna download them (y/n)"
         read answer
         if [[ "$answer" == "y" ]];then 
@@ -83,7 +101,7 @@ fi
 # bash call_variant_UKBB_WGS_pvcf.part1.sh Yoomin.txt . SLC7A11 6h ~/scratch/genotype/UKBB_RAP/SLC7A11/ 
 # bash download_dx.sh ~/scratch/genotype/UKBB_RAP/SLC7A11/  genes/SLC7A11/
 # Commander genes
-# bash call_variant_UKBB_WGS_pvcf.part1.sh COMMANDER.txt . COMMANDER23 6h ~/scratch/genotype/UKBB_RAP/COMMANDER23/ > COMMANDER23.log
+# bash call_variant_UKBB_WGS_pvcf.part1.sh COMMANDER.txt . COMMANDER23 6h ~/scratch/genotype/UKBB_RAP/COMMANDER23/ /lustre03/project/6004655/COMMUN/runs/lang/Commander/data/Filter_ID.txt > COMMANDER23.log
 # bash download_dx.sh ~/scratch/genotype/UKBB_RAP/COMMANDER23/ genes/COMMANDER23/
 
 # anjie 1 gene

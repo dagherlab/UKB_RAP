@@ -1,0 +1,33 @@
+{
+  "name": "compress-folder",
+  "title": "Compress Folder",
+  "summary": "Tar and gzip a folder in the project",
+  "inputSpec": [
+    {
+      "name": "folder_path",
+      "class": "string",
+      "help": "Path to folder in the project"
+    }
+  ],
+  "outputSpec": [
+    {
+      "name": "archive_file",
+      "class": "file",
+      "help": "The output compressed archive"
+    }
+  ],
+  "runSpec": {
+  "interpreter": "bash",
+  "file": "src/code.sh",
+  "distribution": "Ubuntu",
+  "release": "20.04",
+  "version": "0",
+  "systemRequirements": {
+    "*": { "instanceType": "mem1_ssd1_v2_x4" }
+  }
+},
+  "version": "1.0.0",
+  "access": {
+    "project": "CONTRIBUTE"
+  }
+}
