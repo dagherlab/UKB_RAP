@@ -4,10 +4,14 @@
 # gene_list txt file of gene names on each line
 # output output folder for bed files
 # pathname name of the task
-# sleep_time not important, waiting time if you are running this in screen
 # download_output # output folder for all vcf files.
 # keep_samples, sample file with sample ID on each line 
+# for chrX, we need sex info to split the par region
+# xsv select 1,2 ~/go_lab/GRCh37/ukbb/UKB_RAP/UKB_online_follow_up.csv \
+# | tail -n +2 \
+# | awk -F',' '{ sex = ($2 == 0 ? 2 : 1); print 0 "\t" $1 "\t" sex }' > sex_for_plink.txt
 
+# dx upload sex_for_plink.txt --path temp/
 read gene_list output pathname download_output keep_samples <<< $@
 echo "gene_list:$gene_list; output:$output; pathway:$pathname; download_output: $download_output; keep_samples:$keep_samples"
 sleep_time=6h # the latest update takes at leat 3.5 hours
@@ -64,15 +68,20 @@ if [[ "$answer" == "y" ]];then
     if [[ "$answer" == "y" ]];then 
         dx mkdir -p genes/$pathname/
         out=genes/$pathname/
-        bash call_variant_WGS.sh $pathname.GRCh38.bed $out ${pathname}.batch.txt $keep_samples
+        echo "bed file:$pathname.GRCh38.bed $out batch file:${pathname}.batch.txt, keep_samples:$keep_samples"
+        bash call_variant_WGS.sh $pathname.GRCh38.bed ${pathname}.batch.txt $keep_samples $out 
         mkdir -p $download_output
-        sleep $4
-        echo "looks like it is completed, do you wanna download them (y/n)"
+        # the logic here can be adjusted. it is somewhat confusing
+        echo "if you chose yes and submitted one job to test. please enter y to rerun the program after you confirm the result (y/n), otherwise, type n to quit the program"
         read answer
         if [[ "$answer" == "y" ]];then 
+            bash call_variant_WGS.sh $pathname.GRCh38.bed ${pathname}.batch.txt $keep_samples $out 
+            echo "keep this screen on and it will download data after 3 hours, but you can also manually download them"
+            sleep 3h
             dx download $out/* -o $download_output
         else
-            echo "quit downloading. you need to manually download them by running dx download $out/* -o $download_output"
+            echo "quit reruning. you need to look into log on UKB RAP and see what is going on. check your bed and sample ID file if anything went wrong"
+            exit 1
         fi
     else 
         echo "batch file not good, check your bed files and re-run identify_batch_files.sh"
@@ -101,7 +110,8 @@ fi
 # bash call_variant_UKBB_WGS_pvcf.part1.sh Yoomin.txt . SLC7A11 6h ~/scratch/genotype/UKBB_RAP/SLC7A11/ 
 # bash download_dx.sh ~/scratch/genotype/UKBB_RAP/SLC7A11/  genes/SLC7A11/
 # Commander genes
-# bash call_variant_UKBB_WGS_pvcf.part1.sh COMMANDER.txt . COMMANDER23 6h ~/scratch/genotype/UKBB_RAP/COMMANDER23/ /lustre03/project/6004655/COMMUN/runs/lang/Commander/data/Filter_ID.txt > COMMANDER23.log
+# bash call_variant_UKBB_WGS_pvcf.part1.sh COMMANDER.txt . COMMANDER23 ~/scratch/genotype/UKBB_RAP/COMMANDER23_QC/ /lustre03/project/6004655/COMMUN/runs/lang/Commander/data/Filter_ID.txt 
+
 # bash download_dx.sh ~/scratch/genotype/UKBB_RAP/COMMANDER23/ genes/COMMANDER23/
 
 # anjie 1 gene

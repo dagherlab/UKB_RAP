@@ -3,7 +3,7 @@ file=$1
 keep_samples=$2
 bed_file=$3
 
-module load StdEnv/2020 gcc/9.3.0 bcftools/1.16 # must be ignored if this is UKB RAP
+# module load StdEnv/2020 gcc/9.3.0 bcftools/1.16 # must be ignored if this is UKB RAP
 
 name=$(basename $file .vcf.gz)
 
@@ -42,12 +42,30 @@ bcftools norm --threads 5 -m -both -Oz -o $name.subset.DP25.GQ25.split.vcf.gz $n
 echo "converting vcf to plink files"
 if [[ "$name" == *"cX"* ]]; then
   # plink2 can't well handle chrX data without --split-par
-  plink2 --vcf $name.subset.DP25.GQ25.split.vcf.gz --vcf-half-call m --split-par --make-bed --out $name.subset.DP25.GQ25.split
+  echo "chr X detected"
+  plink2 --vcf $name.subset.DP25.GQ25.split.vcf.gz --vcf-half-call m --split-par b38 --update-sex sex_for_plink.txt --make-bed --out $name.subset.DP25.GQ25.split
+  awk '$5 == 1' $name.subset.DP25.GQ25.split.fam > males.txt
+  awk '$5 == 2' $name.subset.DP25.GQ25.split.fam > females.txt
+  # For females (diploid X)
+  plink2 --bfile $name.subset.DP25.GQ25.split --keep females.txt --missing --out chrX_females
+
+  # For males (hemizygous X)
+  plink2 --bfile $name.subset.DP25.GQ25.split --keep males.txt --missing --out chrX_males
+  awk '$5 < 0.05 { print $2 }' chrX_females.vmiss > chrX_pass_f.txt
+  awk '$5 < 0.05 { print $2 }' chrX_males.vmiss > chrX_pass_m.txt
+  # Keep only SNPs present in both lists
+  sort chrX_pass_f.txt chrX_pass_m.txt | uniq -d > chrX_pass_snps.txt
+
+  plink2 --bfile $name.subset.DP25.GQ25.split \
+  --extract chrX_pass_snps.txt \
+  --make-bed \
+  --out $name.subset.DP25.GQ25.MISS95.split
 else
   plink2 --vcf $name.subset.DP25.GQ25.split.vcf.gz --vcf-half-call m --make-bed --out $name.subset.DP25.GQ25.split
+  plink2 --bfile $name.subset.DP25.GQ25.split --geno 0.05 --make-bed --out $name.subset.DP25.GQ25.MISS95.split
+
 fi
 
-plink2 --bfile $name.subset.DP25.GQ25.split --geno 0.05 --make-bed --out $name.subset.DP25.GQ25.MISS95.split
 # reformat the ID column from chr:bp:SG/IG to chr:bp:A1:A2
 awk 'BEGIN{OFS="\t"} {$2="chr"$1":"$4":"$5":"$6; print}' $name.subset.DP25.GQ25.MISS95.split.bim > $name.subset.DP25.GQ25.MISS95.split.renamed.bim
 mv $name.subset.DP25.GQ25.MISS95.split.renamed.bim $name.subset.DP25.GQ25.MISS95.split.bim
@@ -70,3 +88,11 @@ rm $name.subset.DP25.GQ25.split.vcf.gz
 rm $name.subset.DP25.GQ25.vcf.gz
 rm ${name}.subset.vcf.gz
 rm ${name}.subset.vcf.gz.tbi
+rm keep_chrX_snps.txt
+rm chrX_males*
+rm chrX_females*
+rm chrX_pass_snps.txt
+rm females.txt
+rm males.txt
+rm chrX_pass_m.txt
+rm chrX_pass_f.txt

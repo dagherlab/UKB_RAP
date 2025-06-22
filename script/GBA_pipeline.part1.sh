@@ -15,25 +15,33 @@ module load StdEnv/2020 python/3.8.10
 rm submission_command.txt
 # # Loop through unique two-digit prefixes
 # input_file=../GBA_Gauchian/UKB_ID.txt
-input_file=cem_152_samples.txt
-mkdir -p ../GBA_Gauchian
+# input_file=cem_152_samples.txt
+input_file=~/runs/lang/data/GBA1_Gauchian_UKB/qinjm.csv
+# subset by Caucasian
+dos2unix $input_file
+output_folder=../GBA_Gauchian_QJM
+# grep -f<(cut -f1 /home/liulang/go_lab/GRCh37/ukbb/pc_euro.txt) $input_file > $output_folder/imaging_euro_ID.txt 
+input_file=$output_folder/imaging_euro_ID.txt 
+mkdir -p $output_folder
 awk '{print substr($0, 1, 2)}' "$input_file" | sort -u | while read prefix; do
     # Create files named IDXX.txt based on the prefix
-    if [ ! -f ../GBA_Gauchian/tmp_${prefix}.txt ];then
-        grep "^$prefix" "$input_file" > "../GBA_Gauchian/UKB_ID${prefix}.txt"
+    if [ ! -f $output_folder/tmp_${prefix}.txt ];then
+        grep "^$prefix" "$input_file" > "$output_folder/UKB_ID${prefix}.txt"
         # dragen and gatk, which one?
-        dx find data --path "/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]//${prefix}/" --name "*.cram" --delim > ../GBA_Gauchian/UKBRAP_${prefix}.txt # IDs available on UKB RAP
-        # dx find data --path "/Bulk/DRAGEN WGS/Whole genome CRAM files (DRAGEN) [500k release]//${prefix}/" --name "*.cram" --delim > ../GBA_Gauchian/UKBRAP_${prefix}.txt # IDs available on UKB RAP
-        grep -f ../GBA_Gauchian/UKB_ID${prefix}.txt ../GBA_Gauchian/UKBRAP_${prefix}.txt | cut -f4 | sed 's|.*/||' > ../GBA_Gauchian/manifest_${prefix}.txt # OVERLAP
-        grep -f ../GBA_Gauchian/UKB_ID${prefix}.txt ../GBA_Gauchian/UKBRAP_${prefix}.txt > ../GBA_Gauchian/tmp_${prefix}.txt
-        echo "There are $(wc -l < ../GBA_Gauchian/UKB_ID${prefix}.txt) samples we want to analyze."
-        echo "finally there are $(wc -l < ../GBA_Gauchian/manifest_${prefix}.txt) samples found in RAP"
+        if [ ! -f $output_folder/UKBRAP_${prefix}.txt ];then
+        dx find data --path "/Bulk/GATK and GraphTyper WGS/Whole genome GATK CRAM files and indices [500k release]//${prefix}/" --name "*.cram" --delim > $output_folder/UKBRAP_${prefix}.txt # IDs available on UKB RAP
+        fi
+        # dx find data --path "/Bulk/DRAGEN WGS/Whole genome CRAM files (DRAGEN) [500k release]//${prefix}/" --name "*.cram" --delim > ../$output_folder/UKBRAP_${prefix}.txt # IDs available on UKB RAP
+        grep -f $output_folder/UKB_ID${prefix}.txt $output_folder/UKBRAP_${prefix}.txt | cut -f4 | sed 's|.*/||' > $output_folder/manifest_${prefix}.txt # OVERLAP
+        grep -f $output_folder/UKB_ID${prefix}.txt $output_folder/UKBRAP_${prefix}.txt > $output_folder/tmp_${prefix}.txt
+        echo "There are $(wc -l < $output_folder/UKB_ID${prefix}.txt) samples we want to analyze."
+        echo "finally there are $(wc -l < $output_folder/manifest_${prefix}.txt) samples found in RAP"
     fi 
-    python create_job_submission.py ../GBA_Gauchian/tmp_${prefix}.txt 100 ${prefix} >> submission_command.txt
+    python create_job_submission.py $output_folder/tmp_${prefix}.txt 100 ${prefix} >> submission_command.txt
 done
 ## uncomment this upload manifest files
 # dx mkdir -p IDs/
-# dx upload ../GBA_Gauchian/manifest_* --path IDs/
+# dx upload $output_folder/manifest_* --path IDs/
 
 
 # There are 1689 samples we want to analyze.

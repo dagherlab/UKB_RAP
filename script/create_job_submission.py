@@ -59,6 +59,7 @@ for batch_number in range(number_of_batch):
     --brief \
     --project "project-GvFxJ08J95KXx97XFz8g2X2g" \
     --priority low \
+    --name="gba_{prefix}_{batch_number}" \
     -y \
     -iin="{ID_file}" \
     {iin_files}'.format(ID_file=ID_file,ID_file2=ID_file2,out=out,iin_files=iin_files,prefix=prefix,batch_number=batch_number))

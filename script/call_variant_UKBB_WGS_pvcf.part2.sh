@@ -42,9 +42,9 @@ for chr in $(seq 1 22) X; do
             # Fixed memory allocation
             mem_requested=30
 
-            # Create the command with multi-threading (--naive may not work)
+            # Create the command with multi-threading (--naive-force may not work)
             echo "if any error pops up and it is about --naive. you can remove it"
-            command="bcftools concat --naive -f chr${chr}.merge.list --threads 10 -Oz -o ${out_name} && echo 'concatenation done' && tabix ${out_name}"
+            command="bcftools concat --naive-force -f chr${chr}.merge.list --threads 10 -Oz -o ${out_name} && echo 'concatenation done' && tabix ${out_name}"
 
             # Submit the job
             sbatch -c 10 --mem=${mem_requested}g -t ${time_requested} \
